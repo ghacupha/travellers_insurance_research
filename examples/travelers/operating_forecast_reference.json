@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_analyst_inputs_not_travelers_guidance",
+  "forecast_scope": "constant_fy2025_perimeter_excludes_2026_canadian_disposal",
+  "scope_source": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Completes-Sale-of-Canadian-Personal-Insurance-Business-and-Majority-of-Its-Canadian-Commercial-Insurance-Business-to-Definity/default.aspx",
+  "company": "TRV",
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "opening": {
+    "gwp": 47730,
+    "gross_upr": 22431,
+    "ceded_upr": 1283,
+    "gross_reserves": 67643,
+    "unpaid_recoverables": 7797
+  },
+  "cases": {
+    "Base": [
+      {
+        "year": 2026,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 49639.200000000004,
+          "ceded_written": 3474.7440000000006,
+          "nwp": 46164.456000000006,
+          "gross_earned": 48739.77600000001,
+          "ceded_earned": 3124.6143200000006,
+          "nep": 45615.16168000001,
+          "closing_net_upr": 21697.294319999997
+        },
+        "reserves": {
+          "opening_net": 59846,
+          "incurred_net": 28595.243475200008,
+          "paid_net": 24259.727320576003,
+          "prior_year_development_net": -598.46,
+          "closing_net": 64181.51615462401,
+          "closing_gross": 72521.48718036611,
+          "closing_unpaid_recoverables": 8339.971025742101
+        },
+        "underwriting_expenses": 12544.169462000003,
+        "underwriting_result": 4475.7487428,
+        "combined_ratio": 0.9018802394213064
+      },
+      {
+        "year": 2027,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 51624.768000000004,
+          "ceded_written": 3613.7337600000005,
+          "nwp": 48011.03424,
+          "gross_earned": 50691.551040000006,
+          "ceded_earned": 3548.408572800001,
+          "nep": 47143.14246720001,
+          "closing_net_upr": 22565.186092800002
+        },
+        "reserves": {
+          "opening_net": 64181.516154624005,
+          "incurred_net": 29529.796017461762,
+          "paid_net": 25585.145802040322,
+          "prior_year_development_net": -641.8151615462401,
+          "closing_net": 68126.16637004545,
+          "closing_gross": 76978.71906219824,
+          "closing_unpaid_recoverables": 8852.552692152798
+        },
+        "underwriting_expenses": 12964.364178480002,
+        "underwriting_result": 4648.982271258243,
+        "combined_ratio": 0.9013858213950674
+      },
+      {
+        "year": 2028,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 53689.758720000005,
+          "ceded_written": 3758.2831104000006,
+          "nwp": 49931.475609600006,
+          "gross_earned": 52719.2130816,
+          "ceded_earned": 3690.3449157120003,
+          "nep": 49028.868165888,
+          "closing_net_upr": 23467.793536512
+        },
+        "reserves": {
+          "opening_net": 68126.16637004545,
+          "incurred_net": 30697.213962467868,
+          "paid_net": 26911.577339353964,
+          "prior_year_development_net": -681.2616637004545,
+          "closing_net": 71911.80299315936,
+          "closing_gross": 81256.27456854164,
+          "closing_unpaid_recoverables": 9344.47157538229
+        },
+        "underwriting_expenses": 13482.938745619202,
+        "underwriting_result": 4848.715457800932,
+        "combined_ratio": 0.901104886994425
+      },
+      {
+        "year": 2029,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 55837.34906880001,
+          "ceded_written": 3908.614434816001,
+          "nwp": 51928.73463398401,
+          "gross_earned": 54827.981604864006,
+          "ceded_earned": 3837.958712340481,
+          "nep": 50990.02289252353,
+          "closing_net_upr": 24406.505277972483
+        },
+        "reserves": {
+          "opening_net": 71911.80299315936,
+          "incurred_net": 31914.496621283466,
+          "paid_net": 28221.370225956784,
+          "prior_year_development_net": -719.1180299315937,
+          "closing_net": 75604.92938848605,
+          "closing_gross": 85429.29874405204,
+          "closing_unpaid_recoverables": 9824.369355565983
+        },
+        "underwriting_expenses": 14022.25629544397,
+        "underwriting_result": 5053.269975796091,
+        "combined_ratio": 0.900896887486257
+      },
+      {
+        "year": 2030,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 58070.84303155201,
+          "ceded_written": 4064.959012208641,
+          "nwp": 54005.88401934337,
+          "gross_earned": 57021.100869058566,
+          "ceded_earned": 3991.4770608341,
+          "nep": 53029.62380822447,
+          "closing_net_upr": 25382.76548909138
+        },
+        "reserves": {
+          "opening_net": 75604.92938848605,
+          "incurred_net": 33182.9099433788,
+          "paid_net": 29529.888975627124,
+          "prior_year_development_net": -756.0492938848605,
+          "closing_net": 79257.95035623772,
+          "closing_gross": 89557.00605224601,
+          "closing_unpaid_recoverables": 10299.055696008292
+        },
+        "underwriting_expenses": 14583.14654726173,
+        "underwriting_result": 5263.567317583938,
+        "combined_ratio": 0.9007428878504018
+      }
+    ],
+    "Upside": [
+      {
+        "year": 2026,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 51071.100000000006,
+          "ceded_written": 3064.266,
+          "nwp": 48006.834,
+          "gross_earned": 50009.394,
+          "ceded_earned": 2937.7036399999997,
+          "nep": 47071.69036,
+          "closing_net_upr": 22083.143640000002
+        },
+        "reserves": {
+          "opening_net": 59846,
+          "incurred_net": 26340.0188606,
+          "paid_net": 22756.327378422,
+          "prior_year_development_net": -1196.92,
+          "closing_net": 63429.691482178,
+          "closing_gross": 70871.16366723798,
+          "closing_unpaid_recoverables": 7441.472185059988
+        },
+        "underwriting_expenses": 12473.9979454,
+        "underwriting_result": 8257.673553999999,
+        "combined_ratio": 0.8245724024175451
+      },
+      {
+        "year": 2027,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 54646.07700000001,
+          "ceded_written": 3278.7646200000004,
+          "nwp": 51367.31238000001,
+          "gross_earned": 53001.58758000001,
+          "ceded_earned": 3180.0952548000005,
+          "nep": 49821.49232520001,
+          "closing_net_upr": 23628.963694800008
+        },
+        "reserves": {
+          "opening_net": 63429.691482177994,
+          "incurred_net": 27876.97918059845,
+          "paid_net": 24104.09722504692,
+          "prior_year_development_net": -1268.59382964356,
+          "closing_net": 67202.57343772953,
+          "closing_gross": 75086.67423210003,
+          "closing_unpaid_recoverables": 7884.1007943705
+        },
+        "underwriting_expenses": 13202.695466178004,
+        "underwriting_result": 8741.817678423555,
+        "combined_ratio": 0.8245372173646855
+      },
+      {
+        "year": 2028,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 58471.30239000002,
+          "ceded_written": 3508.278143400001,
+          "nwp": 54963.02424660002,
+          "gross_earned": 56711.698710600016,
+          "ceded_earned": 3402.701922636001,
+          "nep": 53308.99678796402,
+          "closing_net_upr": 25282.99115343601
+        },
+        "reserves": {
+          "opening_net": 67202.57343772953,
+          "incurred_net": 29841.71165220436,
+          "paid_net": 25651.272776678015,
+          "prior_year_development_net": -1344.0514687545906,
+          "closing_net": 71393.01231325588,
+          "closing_gross": 79768.72884162668,
+          "closing_unpaid_recoverables": 8375.716528370802
+        },
+        "underwriting_expenses": 14126.884148810464,
+        "underwriting_result": 9340.400986949191,
+        "combined_ratio": 0.8247875302530914
+      },
+      {
+        "year": 2029,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 62564.29355730002,
+          "ceded_written": 3753.857613438001,
+          "nwp": 58810.43594386202,
+          "gross_earned": 60681.51762034201,
+          "ceded_earned": 3640.8910572205205,
+          "nep": 57040.62656312149,
+          "closing_net_upr": 27052.80053417653
+        },
+        "reserves": {
+          "opening_net": 71393.01231325588,
+          "incurred_net": 31940.90629316096,
+          "paid_net": 27338.976205371382,
+          "prior_year_development_net": -1427.8602462651177,
+          "closing_net": 75994.94240104547,
+          "closing_gross": 84910.55016876588,
+          "closing_unpaid_recoverables": 8915.607767720416
+        },
+        "underwriting_expenses": 15115.766039227196,
+        "underwriting_result": 9983.954230733338,
+        "combined_ratio": 0.8249676619578321
+      },
+      {
+        "year": 2030,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 66943.79410631103,
+          "ceded_written": 4016.6276463786617,
+          "nwp": 62927.16645993237,
+          "gross_earned": 64929.22385376597,
+          "ceded_earned": 3895.7534312259577,
+          "nep": 61033.47042254001,
+          "closing_net_upr": 28946.496571568892
+        },
+        "reserves": {
+          "opening_net": 75994.94240104547,
+          "incurred_net": 34184.681349165,
+          "paid_net": 29169.632577178334,
+          "prior_year_development_net": -1519.8988480209093,
+          "closing_net": 81009.99117303215,
+          "closing_gross": 90513.956617913,
+          "closing_unpaid_recoverables": 9503.965444880865
+        },
+        "underwriting_expenses": 16173.869661973104,
+        "underwriting_result": 10674.919411401906,
+        "combined_ratio": 0.8250972894462906
+      }
+    ],
+    "Downside": [
+      {
+        "year": 2026,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 48207.3,
+          "ceded_written": 4338.657,
+          "nwp": 43868.643000000004,
+          "gross_earned": 47016.723,
+          "ceded_earned": 3495.71507,
+          "nep": 43521.00793,
+          "closing_net_upr": 21495.63507
+        },
+        "reserves": {
+          "opening_net": 59846,
+          "incurred_net": 31715.980669949997,
+          "paid_net": 26211.588267979998,
+          "prior_year_development_net": 598.46,
+          "closing_net": 65350.39240196999,
+          "closing_gross": 74686.16274510857,
+          "closing_unpaid_recoverables": 9335.770343138573
+        },
+        "underwriting_expenses": 12621.0922997,
+        "underwriting_result": -816.0650396499968,
+        "combined_ratio": 1.0187510601997678
+      },
+      {
+        "year": 2027,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 48689.37300000001,
+          "ceded_written": 4382.043570000001,
+          "nwp": 44307.329430000005,
+          "gross_earned": 48453.15723000001,
+          "ceded_earned": 4360.7841507,
+          "nep": 44092.373079300014,
+          "closing_net_upr": 21710.591420700002
+        },
+        "reserves": {
+          "opening_net": 65350.39240196999,
+          "incurred_net": 32179.55067571921,
+          "paid_net": 27641.008953132903,
+          "prior_year_development_net": 653.5039240197,
+          "closing_net": 69888.9341245563,
+          "closing_gross": 79873.06757092148,
+          "closing_unpaid_recoverables": 9984.133446365186
+        },
+        "underwriting_expenses": 12786.788192997003,
+        "underwriting_result": -873.9657894161974,
+        "combined_ratio": 1.0198212463603256
+      },
+      {
+        "year": 2028,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 49176.26673000001,
+          "ceded_written": 4425.864005700001,
+          "nwp": 44750.40272430001,
+          "gross_earned": 48937.688802300014,
+          "ceded_earned": 4404.391992207001,
+          "nep": 44533.296810093016,
+          "closing_net_upr": 21927.697334907003
+        },
+        "reserves": {
+          "opening_net": 69888.9341245563,
+          "incurred_net": 32540.196560462067,
+          "paid_net": 28810.97773633455,
+          "prior_year_development_net": 698.889341245563,
+          "closing_net": 73618.15294868381,
+          "closing_gross": 84135.03194135292,
+          "closing_unpaid_recoverables": 10516.878992669115
+        },
+        "underwriting_expenses": 12914.656074926974,
+        "underwriting_result": -921.5558252960254,
+        "combined_ratio": 1.0206936358030239
+      },
+      {
+        "year": 2029,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 49668.02939730001,
+          "ceded_written": 4470.122645757,
+          "nwp": 45197.90675154301,
+          "gross_earned": 49427.06569032301,
+          "ceded_earned": 4448.435912129071,
+          "nep": 44978.62977819394,
+          "closing_net_upr": 22146.974308256074
+        },
+        "reserves": {
+          "opening_net": 73618.15294868381,
+          "incurred_net": 32895.9018208955,
+          "paid_net": 29796.063294760745,
+          "prior_year_development_net": 736.1815294868381,
+          "closing_net": 76717.99147481858,
+          "closing_gross": 87677.70454264981,
+          "closing_unpaid_recoverables": 10959.713067831226
+        },
+        "underwriting_expenses": 13043.802635676242,
+        "underwriting_result": -961.0746783778013,
+        "combined_ratio": 1.0213673623033253
+      },
+      {
+        "year": 2030,
+        "status": "modeled",
+        "premiums": {
+          "gwp": 50164.70969127301,
+          "ceded_written": 4514.823872214571,
+          "nwp": 45649.88581905844,
+          "gross_earned": 49921.336347226235,
+          "ceded_earned": 4492.920271250361,
+          "nep": 45428.416075975874,
+          "closing_net_upr": 22368.444051338636
+        },
+        "reserves": {
+          "opening_net": 76717.99147481858,
+          "incurred_net": 33248.49740907094,
+          "paid_net": 30637.665036937375,
+          "prior_year_development_net": 767.1799147481859,
+          "closing_net": 79328.82384695215,
+          "closing_gross": 90661.51296794531,
+          "closing_unpaid_recoverables": 11332.689120993162
+        },
+        "underwriting_expenses": 13174.240662033002,
+        "underwriting_result": -994.3219951280644,
+        "combined_ratio": 1.0218876659372216
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insurance-research-harness"
+version = "0.1.0"
+description = "Provenance-aware Python research harness for US GAAP P&C insurers"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["behave==1.2.6"]
+
+[project.scripts]
+insurance-research = "bizplan.insurance.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bizplan", "bizplan.insurance*"]

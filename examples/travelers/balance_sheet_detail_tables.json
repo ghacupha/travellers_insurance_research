@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "unit": "USD million",
+  "method": "Manual transcription of remaining audited consolidated balance-sheet rows from issuer annual-report PDF copies. Null means the line was absent in that year's presentation, not a sourced zero.",
+  "tables": [
+    {
+      "report_year": 2019, "pdf_page": 145, "columns": [2019],
+      "rows": {
+        "deferred_tax_asset": [null], "contractholder_receivables": [4619],
+        "goodwill": [3961], "intangible_assets": [330], "other_assets": [3110],
+        "assets_held_for_sale": [null], "contractholder_payables": [4619],
+        "reinsurance_premium_payables": [363], "deferred_tax_liability": [137],
+        "other_liabilities": [6049], "liabilities_held_for_sale": [null],
+        "common_stock": [23469], "retained_earnings": [36977],
+        "aoci": [640], "treasury_stock": [-35143]
+      }
+    },
+    {
+      "report_year": 2021, "pdf_page": 146, "columns": [2021, 2020],
+      "rows": {
+        "deferred_tax_asset": [null, null], "contractholder_receivables": [3890, 4242],
+        "goodwill": [4008, 3976], "intangible_assets": [306, 317],
+        "other_assets": [3530, 3173], "assets_held_for_sale": [null, null],
+        "contractholder_payables": [3911, 4261],
+        "reinsurance_premium_payables": [384, 356],
+        "deferred_tax_liability": [289, 558], "other_liabilities": [6329, 6095],
+        "liabilities_held_for_sale": [null, null],
+        "common_stock": [24154, 23743], "retained_earnings": [41555, 38771],
+        "aoci": [1193, 2502], "treasury_stock": [-38015, -35815]
+      }
+    },
+    {
+      "report_year": 2023, "pdf_page": 147, "columns": [2023, 2022],
+      "rows": {
+        "deferred_tax_asset": [1504, 1877],
+        "contractholder_receivables": [3249, 3579],
+        "goodwill": [3976, 3952], "intangible_assets": [277, 287],
+        "other_assets": [3943, 3274], "assets_held_for_sale": [null, null],
+        "contractholder_payables": [3269, 3596],
+        "reinsurance_premium_payables": [518, 419],
+        "deferred_tax_liability": [null, null], "other_liabilities": [6740, 5961],
+        "liabilities_held_for_sale": [null, null],
+        "common_stock": [24906, 24565], "retained_earnings": [45591, 43516],
+        "aoci": [-4471, -6445], "treasury_stock": [-41105, -40076]
+      }
+    },
+    {
+      "report_year": 2025, "pdf_page": 159, "columns": [2025, 2024],
+      "rows": {
+        "deferred_tax_asset": [887, 1762],
+        "contractholder_receivables": [3010, 3171],
+        "goodwill": [4066, 4233], "intangible_assets": [336, 360],
+        "other_assets": [4279, 4183], "assets_held_for_sale": [4550, null],
+        "contractholder_payables": [3026, 3189],
+        "reinsurance_premium_payables": [529, 550],
+        "deferred_tax_liability": [null, null], "other_liabilities": [7282, 7171],
+        "liabilities_held_for_sale": [2542, null],
+        "common_stock": [25910, 25452], "retained_earnings": [54931, 49630],
+        "aoci": [-2500, -4967], "treasury_stock": [-45447, -42251]
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "unit": "USD million except common shares in millions",
+  "method": "Issuer annual-report copies of audited consolidated cash-flow and equity statements; columns in descending fiscal order. Cash-flow investment purchases, dividends and repurchases are positive magnitudes here.",
+  "cash_flow": [
+    {
+      "report_year": 2022, "pdf_page": 149, "columns": [2022, 2021, 2020],
+      "rows": {
+        "dac_cash_additions": [5824, 5227, 4854],
+        "fixed_maturity_purchases": [15908, 18153, 14073],
+        "equity_security_purchases": [136, 407, 127],
+        "real_estate_purchases": [41, 28, 113],
+        "other_investment_purchases": [574, 520, 472],
+        "fixed_maturity_maturities": [6837, 8852, 7387],
+        "fixed_maturity_sale_proceeds": [5657, 3165, 3057],
+        "equity_security_sale_proceeds": [138, 102, 116],
+        "real_estate_sale_proceeds": [10, 31, 0],
+        "other_investment_sale_proceeds": [302, 427, 276],
+        "short_term_net_sales": [355, 1671, -566],
+        "share_buybacks_cash": [2000, 2156, 625],
+        "employee_share_net_cash": [61, 44, 47],
+        "dividends_cash": [875, 869, 861],
+        "debt_issuance": [0, 739, 490],
+        "debt_repayment": [0, 0, 500],
+        "employee_option_cash": [267, 293, 127],
+        "cash_tax": [817, 707, 578]
+      }
+    },
+    {
+      "report_year": 2025, "pdf_page": 161, "columns": [2025, 2024, 2023],
+      "rows": {
+        "dac_cash_additions": [7373, 7173, 6689],
+        "fixed_maturity_purchases": [18771, 17132, 15690],
+        "equity_security_purchases": [126, 124, 105],
+        "real_estate_purchases": [48, 48, 67],
+        "other_investment_purchases": [346, 396, 495],
+        "fixed_maturity_maturities": [11660, 8537, 6371],
+        "fixed_maturity_sale_proceeds": [832, 1634, 4981],
+        "equity_security_sale_proceeds": [160, 143, 138],
+        "real_estate_sale_proceeds": [0, 64, 0],
+        "other_investment_sale_proceeds": [321, 422, 255],
+        "short_term_net_sales": [-945, 370, -1664],
+        "share_buybacks_cash": [3004, 1003, 958],
+        "employee_share_net_cash": [127, 114, 64],
+        "dividends_cash": [979, 951, 908],
+        "debt_issuance": [1233, 0, 738],
+        "debt_repayment": [0, 0, 0],
+        "employee_option_cash": [214, 321, 141],
+        "cash_tax": [1274, 1310, 201]
+      }
+    }
+  ],
+  "equity": [
+    {
+      "report_year": 2022, "pdf_page": 148, "columns": [2022, 2021, 2020],
+      "rows": {
+        "opening_equity": [28887, 29201, 25943],
+        "employee_shares_equity": [227, 247, 123],
+        "stock_comp_and_other_equity": [184, 164, 151],
+        "retained_earnings_other": [-1, -2, 4],
+        "adoption_equity": [0, 0, -43],
+        "equity_dividends": [880, 876, 864],
+        "total_oci": [-7638, -1309, 1862],
+        "equity_buybacks_authorized": [2000, 2156, 625],
+        "equity_employee_treasury": [61, 44, 47],
+        "closing_equity": [21560, 28887, 29201],
+        "closing_aoci": [-6445, 1193, 2502],
+        "closing_shares": [232.1, 241.2, 252.4]
+      }
+    },
+    {
+      "report_year": 2025, "pdf_page": 160, "columns": [2025, 2024, 2023],
+      "rows": {
+        "opening_equity": [27864, 24921, 21560],
+        "employee_shares_equity": [202, 286, 125],
+        "stock_comp_and_other_equity": [256, 260, 216],
+        "retained_earnings_other": [0, 2, -1],
+        "adoption_equity": [0, 0, 0],
+        "equity_dividends": [987, 962, 915],
+        "total_oci": [2467, -496, 1974],
+        "equity_buybacks_authorized": [3025, 1000, 965],
+        "equity_employee_treasury": [171, 146, 64],
+        "closing_equity": [32894, 27864, 24921],
+        "closing_aoci": [-2500, -4967, -4471],
+        "closing_shares": [217.5, 226.6, 228.2]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2537 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "sources": [
+    {
+      "id": "trv_ar_2019",
+      "fiscal_year": 2019,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/annual/2019/TRV_2019_Annual_Report.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2019.pdf",
+      "sha256": "e0093d65a08001302da004d0efc202507906360fc9a05c2e4f935979a1383533",
+      "bytes": 8760903,
+      "pages": 264,
+      "retrieved_at": "2026-09-23T17:35:13.677210+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 145
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 106
+          },
+          {
+            "pdf_page": 141
+          },
+          {
+            "pdf_page": 143
+          },
+          {
+            "pdf_page": 144
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 168
+          },
+          {
+            "pdf_page": 174
+          },
+          {
+            "pdf_page": 175
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 204
+          },
+          {
+            "pdf_page": 205
+          },
+          {
+            "pdf_page": 206
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 218
+          },
+          {
+            "pdf_page": 224
+          },
+          {
+            "pdf_page": 225
+          },
+          {
+            "pdf_page": 231
+          },
+          {
+            "pdf_page": 232
+          },
+          {
+            "pdf_page": 233
+          },
+          {
+            "pdf_page": 242
+          },
+          {
+            "pdf_page": 248
+          },
+          {
+            "pdf_page": 251
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 248
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 248
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 16
+          },
+          {
+            "pdf_page": 52
+          },
+          {
+            "pdf_page": 86
+          },
+          {
+            "pdf_page": 89
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 92
+          },
+          {
+            "pdf_page": 94
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 51
+          },
+          {
+            "pdf_page": 54
+          },
+          {
+            "pdf_page": 176
+          },
+          {
+            "pdf_page": 177
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 180
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 37
+          },
+          {
+            "pdf_page": 40
+          },
+          {
+            "pdf_page": 68
+          },
+          {
+            "pdf_page": 109
+          },
+          {
+            "pdf_page": 118
+          },
+          {
+            "pdf_page": 120
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 136
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 176
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 180
+          },
+          {
+            "pdf_page": 183
+          },
+          {
+            "pdf_page": 184
+          },
+          {
+            "pdf_page": 234
+          },
+          {
+            "pdf_page": 235
+          },
+          {
+            "pdf_page": 256
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 51
+          },
+          {
+            "pdf_page": 57
+          },
+          {
+            "pdf_page": 82
+          },
+          {
+            "pdf_page": 85
+          },
+          {
+            "pdf_page": 88
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 143
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 210
+          },
+          {
+            "pdf_page": 228
+          },
+          {
+            "pdf_page": 229
+          },
+          {
+            "pdf_page": 230
+          },
+          {
+            "pdf_page": 234
+          },
+          {
+            "pdf_page": 235
+          },
+          {
+            "pdf_page": 255
+          },
+          {
+            "pdf_page": 257
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 106
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 164
+          },
+          {
+            "pdf_page": 165
+          },
+          {
+            "pdf_page": 166
+          },
+          {
+            "pdf_page": 221
+          },
+          {
+            "pdf_page": 234
+          },
+          {
+            "pdf_page": 235
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 73
+          },
+          {
+            "pdf_page": 82
+          },
+          {
+            "pdf_page": 119
+          },
+          {
+            "pdf_page": 156
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 210
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 23
+          },
+          {
+            "pdf_page": 40
+          },
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 49
+          },
+          {
+            "pdf_page": 56
+          },
+          {
+            "pdf_page": 57
+          },
+          {
+            "pdf_page": 69
+          },
+          {
+            "pdf_page": 70
+          },
+          {
+            "pdf_page": 119
+          },
+          {
+            "pdf_page": 203
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 143,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 145,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 146,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 147,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 177,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 180,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2020",
+      "fiscal_year": 2020,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2020/ar/Travelers-2020-Annual-Report.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2020.pdf",
+      "sha256": "b0f912a2cacdacdaf296ae6888a862202aac27a8ad30009896d0de4b42358a88",
+      "bytes": 7364012,
+      "pages": 258,
+      "retrieved_at": "2026-09-23T17:36:45.911786+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 148
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 109
+          },
+          {
+            "pdf_page": 144
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 171
+          },
+          {
+            "pdf_page": 172
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 186
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 210
+          },
+          {
+            "pdf_page": 212
+          },
+          {
+            "pdf_page": 221
+          },
+          {
+            "pdf_page": 227
+          },
+          {
+            "pdf_page": 228
+          },
+          {
+            "pdf_page": 233
+          },
+          {
+            "pdf_page": 239
+          },
+          {
+            "pdf_page": 242
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 239
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 239
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 18
+          },
+          {
+            "pdf_page": 89
+          },
+          {
+            "pdf_page": 92
+          },
+          {
+            "pdf_page": 95
+          },
+          {
+            "pdf_page": 98
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 61
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 185
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 39
+          },
+          {
+            "pdf_page": 42
+          },
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 70
+          },
+          {
+            "pdf_page": 112
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 123
+          },
+          {
+            "pdf_page": 124
+          },
+          {
+            "pdf_page": 139
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 180
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 184
+          },
+          {
+            "pdf_page": 185
+          },
+          {
+            "pdf_page": 189
+          },
+          {
+            "pdf_page": 247
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 64
+          },
+          {
+            "pdf_page": 84
+          },
+          {
+            "pdf_page": 88
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 94
+          },
+          {
+            "pdf_page": 97
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 213
+          },
+          {
+            "pdf_page": 248
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 109
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 155
+          },
+          {
+            "pdf_page": 167
+          },
+          {
+            "pdf_page": 168
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 224
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 76
+          },
+          {
+            "pdf_page": 122
+          },
+          {
+            "pdf_page": 160
+          },
+          {
+            "pdf_page": 213
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 25
+          },
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 46
+          },
+          {
+            "pdf_page": 56
+          },
+          {
+            "pdf_page": 63
+          },
+          {
+            "pdf_page": 64
+          },
+          {
+            "pdf_page": 71
+          },
+          {
+            "pdf_page": 78
+          },
+          {
+            "pdf_page": 122
+          },
+          {
+            "pdf_page": 208
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 146,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 148,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 149,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 150,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 182,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 185,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2021",
+      "fiscal_year": 2021,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2021/ar/Travelers-2021-Annual-Report.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2021.pdf",
+      "sha256": "3e42291a1ec9a7e2d27596f4d839cf36f538eeec1d16b3dbf718001c3471c92c",
+      "bytes": 14523960,
+      "pages": 254,
+      "retrieved_at": "2026-09-23T17:36:14.086552+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 146
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 107
+          },
+          {
+            "pdf_page": 142
+          },
+          {
+            "pdf_page": 144
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 175
+          },
+          {
+            "pdf_page": 176
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 183
+          },
+          {
+            "pdf_page": 205
+          },
+          {
+            "pdf_page": 206
+          },
+          {
+            "pdf_page": 207
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 217
+          },
+          {
+            "pdf_page": 223
+          },
+          {
+            "pdf_page": 228
+          },
+          {
+            "pdf_page": 234
+          },
+          {
+            "pdf_page": 238
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 234
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 234
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 59
+          },
+          {
+            "pdf_page": 88
+          },
+          {
+            "pdf_page": 90
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 94
+          },
+          {
+            "pdf_page": 96
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 61
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 182
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 39
+          },
+          {
+            "pdf_page": 42
+          },
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 70
+          },
+          {
+            "pdf_page": 71
+          },
+          {
+            "pdf_page": 110
+          },
+          {
+            "pdf_page": 111
+          },
+          {
+            "pdf_page": 118
+          },
+          {
+            "pdf_page": 119
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 122
+          },
+          {
+            "pdf_page": 137
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 153
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 186
+          },
+          {
+            "pdf_page": 243
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 64
+          },
+          {
+            "pdf_page": 83
+          },
+          {
+            "pdf_page": 87
+          },
+          {
+            "pdf_page": 90
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 95
+          },
+          {
+            "pdf_page": 144
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 242
+          },
+          {
+            "pdf_page": 244
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 107
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 164
+          },
+          {
+            "pdf_page": 165
+          },
+          {
+            "pdf_page": 167
+          },
+          {
+            "pdf_page": 220
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 76
+          },
+          {
+            "pdf_page": 156
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 210
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 25
+          },
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 46
+          },
+          {
+            "pdf_page": 56
+          },
+          {
+            "pdf_page": 63
+          },
+          {
+            "pdf_page": 64
+          },
+          {
+            "pdf_page": 72
+          },
+          {
+            "pdf_page": 78
+          },
+          {
+            "pdf_page": 120
+          },
+          {
+            "pdf_page": 205
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 144,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 146,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 147,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 148,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 179,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 182,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2022",
+      "fiscal_year": 2022,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2022/ar/B/Travelers-2022-Annual-Report-pdf.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2022.pdf",
+      "sha256": "294fc17bdf196969c710ce679ef9470ca87e3d059b50f898fe487e5c68dd107d",
+      "bytes": 17529059,
+      "pages": 258,
+      "retrieved_at": "2026-09-23T17:35:46.765127+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 147
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 108
+          },
+          {
+            "pdf_page": 143
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 170
+          },
+          {
+            "pdf_page": 175
+          },
+          {
+            "pdf_page": 176
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 183
+          },
+          {
+            "pdf_page": 205
+          },
+          {
+            "pdf_page": 206
+          },
+          {
+            "pdf_page": 207
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 219
+          },
+          {
+            "pdf_page": 224
+          },
+          {
+            "pdf_page": 229
+          },
+          {
+            "pdf_page": 235
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 235
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 235
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 61
+          },
+          {
+            "pdf_page": 89
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 94
+          },
+          {
+            "pdf_page": 97
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 60
+          },
+          {
+            "pdf_page": 63
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 182
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 41
+          },
+          {
+            "pdf_page": 44
+          },
+          {
+            "pdf_page": 45
+          },
+          {
+            "pdf_page": 73
+          },
+          {
+            "pdf_page": 111
+          },
+          {
+            "pdf_page": 112
+          },
+          {
+            "pdf_page": 119
+          },
+          {
+            "pdf_page": 120
+          },
+          {
+            "pdf_page": 122
+          },
+          {
+            "pdf_page": 123
+          },
+          {
+            "pdf_page": 138
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 185
+          },
+          {
+            "pdf_page": 186
+          },
+          {
+            "pdf_page": 244
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 60
+          },
+          {
+            "pdf_page": 66
+          },
+          {
+            "pdf_page": 84
+          },
+          {
+            "pdf_page": 88
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 96
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 210
+          },
+          {
+            "pdf_page": 243
+          },
+          {
+            "pdf_page": 245
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 107
+          },
+          {
+            "pdf_page": 108
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 165
+          },
+          {
+            "pdf_page": 166
+          },
+          {
+            "pdf_page": 167
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 221
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 77
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 210
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 27
+          },
+          {
+            "pdf_page": 45
+          },
+          {
+            "pdf_page": 48
+          },
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 65
+          },
+          {
+            "pdf_page": 66
+          },
+          {
+            "pdf_page": 74
+          },
+          {
+            "pdf_page": 79
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 204
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 145,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 147,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 148,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 149,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 179,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 182,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2023",
+      "fiscal_year": 2023,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2023/ar/Travelers-2023-Annual__Report.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2023.pdf",
+      "sha256": "53f73eab62a87649bddd9402c5e9b9fb7087192b4df27a788f7b1189250829e3",
+      "bytes": 48461468,
+      "pages": 254,
+      "retrieved_at": "2026-09-23T17:37:31.680058+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 147
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 109
+          },
+          {
+            "pdf_page": 143
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 170
+          },
+          {
+            "pdf_page": 175
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 203
+          },
+          {
+            "pdf_page": 204
+          },
+          {
+            "pdf_page": 205
+          },
+          {
+            "pdf_page": 207
+          },
+          {
+            "pdf_page": 217
+          },
+          {
+            "pdf_page": 222
+          },
+          {
+            "pdf_page": 227
+          },
+          {
+            "pdf_page": 233
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 233
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 233
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 31
+          },
+          {
+            "pdf_page": 61
+          },
+          {
+            "pdf_page": 91
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 96
+          },
+          {
+            "pdf_page": 98
+          },
+          {
+            "pdf_page": 113
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 60
+          },
+          {
+            "pdf_page": 63
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 178
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 181
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 41
+          },
+          {
+            "pdf_page": 44
+          },
+          {
+            "pdf_page": 73
+          },
+          {
+            "pdf_page": 112
+          },
+          {
+            "pdf_page": 120
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 123
+          },
+          {
+            "pdf_page": 138
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 153
+          },
+          {
+            "pdf_page": 176
+          },
+          {
+            "pdf_page": 177
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 180
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 184
+          },
+          {
+            "pdf_page": 242
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 60
+          },
+          {
+            "pdf_page": 66
+          },
+          {
+            "pdf_page": 86
+          },
+          {
+            "pdf_page": 90
+          },
+          {
+            "pdf_page": 92
+          },
+          {
+            "pdf_page": 95
+          },
+          {
+            "pdf_page": 97
+          },
+          {
+            "pdf_page": 145
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 241
+          },
+          {
+            "pdf_page": 243
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 108
+          },
+          {
+            "pdf_page": 109
+          },
+          {
+            "pdf_page": 147
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 164
+          },
+          {
+            "pdf_page": 165
+          },
+          {
+            "pdf_page": 166
+          },
+          {
+            "pdf_page": 168
+          },
+          {
+            "pdf_page": 219
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 77
+          },
+          {
+            "pdf_page": 156
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 209
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 27
+          },
+          {
+            "pdf_page": 45
+          },
+          {
+            "pdf_page": 48
+          },
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 65
+          },
+          {
+            "pdf_page": 66
+          },
+          {
+            "pdf_page": 74
+          },
+          {
+            "pdf_page": 79
+          },
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 202
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 145,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 147,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 148,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 149,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 178,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 181,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2024",
+      "fiscal_year": 2024,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2024/ar/v2/Travelers-2024-Annual-Report.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2024.pdf",
+      "sha256": "7a58a170cab4531d8e58266b98dbf26cba66bbe16c9a692c771f415a4c49d65c",
+      "bytes": 14183528,
+      "pages": 260,
+      "retrieved_at": "2026-09-23T17:36:40.371091+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 150
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 112
+          },
+          {
+            "pdf_page": 146
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 149
+          },
+          {
+            "pdf_page": 154
+          },
+          {
+            "pdf_page": 173
+          },
+          {
+            "pdf_page": 174
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 186
+          },
+          {
+            "pdf_page": 208
+          },
+          {
+            "pdf_page": 209
+          },
+          {
+            "pdf_page": 210
+          },
+          {
+            "pdf_page": 212
+          },
+          {
+            "pdf_page": 222
+          },
+          {
+            "pdf_page": 227
+          },
+          {
+            "pdf_page": 232
+          },
+          {
+            "pdf_page": 239
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 239
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 151
+          },
+          {
+            "pdf_page": 239
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 33
+          },
+          {
+            "pdf_page": 63
+          },
+          {
+            "pdf_page": 94
+          },
+          {
+            "pdf_page": 96
+          },
+          {
+            "pdf_page": 98
+          },
+          {
+            "pdf_page": 99
+          },
+          {
+            "pdf_page": 101
+          },
+          {
+            "pdf_page": 116
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 62
+          },
+          {
+            "pdf_page": 65
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 186
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 43
+          },
+          {
+            "pdf_page": 46
+          },
+          {
+            "pdf_page": 75
+          },
+          {
+            "pdf_page": 115
+          },
+          {
+            "pdf_page": 123
+          },
+          {
+            "pdf_page": 124
+          },
+          {
+            "pdf_page": 126
+          },
+          {
+            "pdf_page": 141
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 182
+          },
+          {
+            "pdf_page": 183
+          },
+          {
+            "pdf_page": 185
+          },
+          {
+            "pdf_page": 186
+          },
+          {
+            "pdf_page": 189
+          },
+          {
+            "pdf_page": 248
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 62
+          },
+          {
+            "pdf_page": 68
+          },
+          {
+            "pdf_page": 89
+          },
+          {
+            "pdf_page": 93
+          },
+          {
+            "pdf_page": 95
+          },
+          {
+            "pdf_page": 98
+          },
+          {
+            "pdf_page": 100
+          },
+          {
+            "pdf_page": 148
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 152
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 162
+          },
+          {
+            "pdf_page": 163
+          },
+          {
+            "pdf_page": 213
+          },
+          {
+            "pdf_page": 247
+          },
+          {
+            "pdf_page": 249
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 111
+          },
+          {
+            "pdf_page": 112
+          },
+          {
+            "pdf_page": 153
+          },
+          {
+            "pdf_page": 155
+          },
+          {
+            "pdf_page": 168
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 170
+          },
+          {
+            "pdf_page": 172
+          },
+          {
+            "pdf_page": 224
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 79
+          },
+          {
+            "pdf_page": 160
+          },
+          {
+            "pdf_page": 213
+          },
+          {
+            "pdf_page": 214
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 29
+          },
+          {
+            "pdf_page": 47
+          },
+          {
+            "pdf_page": 50
+          },
+          {
+            "pdf_page": 60
+          },
+          {
+            "pdf_page": 67
+          },
+          {
+            "pdf_page": 68
+          },
+          {
+            "pdf_page": 76
+          },
+          {
+            "pdf_page": 82
+          },
+          {
+            "pdf_page": 124
+          },
+          {
+            "pdf_page": 207
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 148,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 150,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 151,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 152,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 182,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 186,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        }
+      }
+    },
+    {
+      "id": "trv_ar_2025",
+      "fiscal_year": 2025,
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2025/AR/2026-Travelers-Annual-Report-Final.pdf",
+      "archive_url": "https://investor.travelers.com/financial-information/annual-reports/default.aspx",
+      "local_cache": "data/travelers/annual_reports/2025.pdf",
+      "sha256": "94fc0b121687402eac9a025d2701d2fe93c0789143797961ad6faad1c6dcb5b6",
+      "bytes": 17836165,
+      "pages": 270,
+      "retrieved_at": "2026-09-23T17:37:39.841085+00:00",
+      "publication_date": null,
+      "cutoff_eligibility": "filing_date_verified_pdf_posting_and_parity_pending",
+      "status": "cached_and_text_indexed",
+      "locator_method": "case-insensitive regex candidates; not reviewed table/value evidence",
+      "candidate_pages": {
+        "balance_sheet": [
+          {
+            "pdf_page": 159
+          }
+        ],
+        "income_statement": [
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 155
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 158
+          },
+          {
+            "pdf_page": 164
+          },
+          {
+            "pdf_page": 184
+          },
+          {
+            "pdf_page": 189
+          },
+          {
+            "pdf_page": 193
+          },
+          {
+            "pdf_page": 196
+          },
+          {
+            "pdf_page": 217
+          },
+          {
+            "pdf_page": 218
+          },
+          {
+            "pdf_page": 219
+          },
+          {
+            "pdf_page": 221
+          },
+          {
+            "pdf_page": 222
+          },
+          {
+            "pdf_page": 233
+          },
+          {
+            "pdf_page": 238
+          },
+          {
+            "pdf_page": 243
+          },
+          {
+            "pdf_page": 249
+          }
+        ],
+        "cash_flow": [
+          {
+            "pdf_page": 161
+          },
+          {
+            "pdf_page": 249
+          }
+        ],
+        "equity": [
+          {
+            "pdf_page": 160
+          },
+          {
+            "pdf_page": 249
+          }
+        ],
+        "written_premiums": [
+          {
+            "pdf_page": 45
+          },
+          {
+            "pdf_page": 74
+          },
+          {
+            "pdf_page": 103
+          },
+          {
+            "pdf_page": 106
+          },
+          {
+            "pdf_page": 108
+          },
+          {
+            "pdf_page": 111
+          },
+          {
+            "pdf_page": 126
+          }
+        ],
+        "earned_reinsurance": [
+          {
+            "pdf_page": 73
+          },
+          {
+            "pdf_page": 75
+          },
+          {
+            "pdf_page": 192
+          },
+          {
+            "pdf_page": 193
+          }
+        ],
+        "claims_rollforward": [
+          {
+            "pdf_page": 195
+          }
+        ],
+        "recoverables": [
+          {
+            "pdf_page": 54
+          },
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 85
+          },
+          {
+            "pdf_page": 124
+          },
+          {
+            "pdf_page": 125
+          },
+          {
+            "pdf_page": 132
+          },
+          {
+            "pdf_page": 133
+          },
+          {
+            "pdf_page": 135
+          },
+          {
+            "pdf_page": 136
+          },
+          {
+            "pdf_page": 150
+          },
+          {
+            "pdf_page": 159
+          },
+          {
+            "pdf_page": 161
+          },
+          {
+            "pdf_page": 162
+          },
+          {
+            "pdf_page": 167
+          },
+          {
+            "pdf_page": 191
+          },
+          {
+            "pdf_page": 192
+          },
+          {
+            "pdf_page": 193
+          },
+          {
+            "pdf_page": 195
+          },
+          {
+            "pdf_page": 196
+          },
+          {
+            "pdf_page": 198
+          },
+          {
+            "pdf_page": 258
+          }
+        ],
+        "dac": [
+          {
+            "pdf_page": 73
+          },
+          {
+            "pdf_page": 79
+          },
+          {
+            "pdf_page": 99
+          },
+          {
+            "pdf_page": 102
+          },
+          {
+            "pdf_page": 105
+          },
+          {
+            "pdf_page": 108
+          },
+          {
+            "pdf_page": 110
+          },
+          {
+            "pdf_page": 157
+          },
+          {
+            "pdf_page": 159
+          },
+          {
+            "pdf_page": 161
+          },
+          {
+            "pdf_page": 167
+          },
+          {
+            "pdf_page": 172
+          },
+          {
+            "pdf_page": 173
+          },
+          {
+            "pdf_page": 174
+          },
+          {
+            "pdf_page": 223
+          },
+          {
+            "pdf_page": 257
+          },
+          {
+            "pdf_page": 259
+          }
+        ],
+        "investments": [
+          {
+            "pdf_page": 121
+          },
+          {
+            "pdf_page": 159
+          },
+          {
+            "pdf_page": 163
+          },
+          {
+            "pdf_page": 165
+          },
+          {
+            "pdf_page": 178
+          },
+          {
+            "pdf_page": 179
+          },
+          {
+            "pdf_page": 181
+          },
+          {
+            "pdf_page": 183
+          },
+          {
+            "pdf_page": 235
+          }
+        ],
+        "tax": [
+          {
+            "pdf_page": 89
+          },
+          {
+            "pdf_page": 169
+          },
+          {
+            "pdf_page": 223
+          },
+          {
+            "pdf_page": 224
+          }
+        ],
+        "statutory": [
+          {
+            "pdf_page": 41
+          },
+          {
+            "pdf_page": 58
+          },
+          {
+            "pdf_page": 61
+          },
+          {
+            "pdf_page": 71
+          },
+          {
+            "pdf_page": 78
+          },
+          {
+            "pdf_page": 86
+          },
+          {
+            "pdf_page": 92
+          },
+          {
+            "pdf_page": 134
+          },
+          {
+            "pdf_page": 217
+          }
+        ],
+        "ratio_bridge": []
+      },
+      "reviewed_tables": {
+        "income_statement": {
+          "pdf_page": 157,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "balance_sheet": {
+          "pdf_page": 159,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "equity": {
+          "pdf_page": 160,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "cash_flow": {
+          "pdf_page": 161,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "earned_reinsurance": {
+          "pdf_page": 193,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "claims_rollforward": {
+          "pdf_page": 195,
+          "review": "table heading and relevant table body located in extracted text; amounts not normalized",
+          "scope": "consolidated"
+        },
+        "held_for_sale": {
+          "pdf_page": 162,
+          "review": "major classes of assets and liabilities held for sale located; row transcription in historical tables",
+          "scope": "consolidated"
+        }
+      }
+    }
+  ],
+  "status": "documents_cached; principal table locations reviewed; original SEC filing dates verified separately in historical_tables.json; PDF posting and exact SEC row parity pending"
+}

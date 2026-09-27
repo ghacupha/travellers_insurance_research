@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+output/
+/node_modules
+.env
+data/
+.memories/
+.recall/
+history/
+sessions/
+memories/
+docs/model_spec/reference_inspection.json
+examples/family_bank_kenya/

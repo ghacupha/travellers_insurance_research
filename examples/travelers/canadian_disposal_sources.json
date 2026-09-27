@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "unit": "USD million",
+  "transaction_date": "2026-01-02",
+  "sources": {
+    "fy2025_10k": {
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    "q1_2026_10q": {
+      "available_at": "2026-04-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000111/trv-20260331.htm",
+      "locator": "Consolidated cash flows, investing activities; Note 7 claims reserve rollforward, March 31, 2026"
+    },
+    "q1_2026_webcast": {
+      "available_at": "2026-04-16",
+      "url": "https://s26.q4cdn.com/410417801/files/doc_financials/2026/q1/1Q26-Webcast-FINAL.pdf",
+      "locator": "PDF page 19, 2025 Travelers Canada premiums divested, FY 2025 column"
+    }
+  },
+  "facts": [
+    {"metric": "hfs_fixed_maturities", "value": 3243, "source": "fy2025_10k"},
+    {"metric": "hfs_premium_receivables", "value": 263, "source": "fy2025_10k"},
+    {"metric": "hfs_reinsurance_recoverables", "value": 285, "source": "fy2025_10k"},
+    {"metric": "hfs_goodwill", "value": 208, "source": "fy2025_10k"},
+    {"metric": "hfs_remaining_assets", "value": 551, "source": "fy2025_10k"},
+    {"metric": "hfs_assets_total", "value": 4550, "source": "fy2025_10k"},
+    {"metric": "hfs_claim_reserves_gross", "value": 1909, "source": "fy2025_10k"},
+    {"metric": "hfs_unearned_premium_gross", "value": 514, "source": "fy2025_10k"},
+    {"metric": "hfs_remaining_liabilities", "value": 119, "source": "fy2025_10k"},
+    {"metric": "hfs_liabilities_total", "value": 2542, "source": "fy2025_10k"},
+    {"metric": "cash_proceeds_q1_2026", "value": 2384, "source": "q1_2026_10q"},
+    {"metric": "net_claim_reserves_disposed_q1_2026", "value": 1627, "source": "q1_2026_10q"},
+    {"metric": "divested_nwp_business_2025", "value": 283, "source": "q1_2026_webcast"},
+    {"metric": "divested_nwp_bond_specialty_2025", "value": 56, "source": "q1_2026_webcast"},
+    {"metric": "divested_nwp_personal_2025", "value": 650, "source": "q1_2026_webcast"},
+    {"metric": "divested_nwp_total_2025", "value": 989, "source": "q1_2026_webcast"},
+    {"metric": "divested_nep_business_2025", "value": 309, "source": "q1_2026_webcast"},
+    {"metric": "divested_nep_bond_specialty_2025", "value": 56, "source": "q1_2026_webcast"},
+    {"metric": "divested_nep_personal_2025", "value": 670, "source": "q1_2026_webcast"},
+    {"metric": "divested_nep_total_2025", "value": 1035, "source": "q1_2026_webcast"}
+  ]
+}

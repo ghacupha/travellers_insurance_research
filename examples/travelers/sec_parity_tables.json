@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "unit": "USD million",
+  "method": "Manually transcribed selected rows from original SEC HTML tables; ceded premiums are stored as positive magnitudes, and favorable prior-year incurred as signed negatives.",
+  "tables": [
+    {
+      "report_year": 2024,
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631225000012/R14.htm",
+      "table": "Reinsurance",
+      "columns": [2024, 2023, 2022],
+      "rows": {
+        "direct_written": [44377, 40983, 36648],
+        "assumed_written": [2173, 1989, 1228],
+        "ceded_written": [3194, 2771, 2462],
+        "nwp": [43356, 40201, 35414],
+        "direct_earned": [42983, 38796, 34948],
+        "assumed_earned": [2095, 1614, 1145],
+        "ceded_earned": [3137, 2649, 2330],
+        "nep": [41941, 37761, 33763]
+      }
+    },
+    {
+      "report_year": 2025,
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/R14.htm",
+      "table": "Reinsurance",
+      "columns": [2025, 2024, 2023],
+      "rows": {
+        "direct_written": [45594, 44377, 40983],
+        "assumed_written": [2136, 2173, 1989],
+        "ceded_written": [3343, 3194, 2771],
+        "nwp": [44387, 43356, 40201],
+        "direct_earned": [45042, 42983, 38796],
+        "assumed_earned": [2110, 2095, 1614],
+        "ceded_earned": [3238, 3137, 2649],
+        "nep": [43914, 41941, 37761]
+      }
+    },
+    {
+      "report_year": 2024,
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631225000012/R16.htm",
+      "table": "Insurance Claim Reserves",
+      "columns": [2024, 2023, 2022],
+      "rows": {
+        "current_incurred": [27508, 26159, 23308],
+        "reserve_prior_incurred": [-548, -38, -537],
+        "reported_total_incurred": [26960, 26121, 22771],
+        "paid_current": [10924, 10852, 9406],
+        "paid_prior": [13227, 12424, 10945],
+        "reported_total_paid": [24151, 23276, 20351],
+        "reserve_fx_other": [-194, 106, -255],
+        "net_reserves": [56419, 53804, 50853],
+        "unpaid_recoverables": [7669, 7817, 7790],
+        "gross_reserves": [64088, 61621, 58643]
+      }
+    },
+    {
+      "report_year": 2025,
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/R30.htm",
+      "table": "Schedule VI: continuing P&C operations",
+      "columns": [2025],
+      "rows": {
+        "dac": [3518],
+        "gross_upr": [22431],
+        "nep": [43914],
+        "investment_income": [3959],
+        "current_incurred": [28051],
+        "reserve_prior_incurred": [-939],
+        "dac_amortization": [7266],
+        "reported_total_paid": [23913],
+        "nwp": [44387],
+        "pc_reserves_continuing": [65734]
+      }
+    }
+  ]
+}

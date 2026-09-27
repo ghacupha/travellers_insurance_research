@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "unit": "USD million",
+  "as_of": "2026-02-12",
+  "method": "Manually transcribed numeric rows from issuer annual-report copies of Form 10-K; original SEC filing date checked separately. Annual-report PDF posting dates and SEC row parity remain distinct provenance questions.",
+  "filings": {
+    "2019": {"accession": "0000086312-20-000011", "filed": "2020-02-13", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631220000011/0000086312-20-000011-index.htm"},
+    "2020": {"accession": "0000086312-21-000011", "filed": "2021-02-11", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631221000011/0000086312-21-000011-index.htm"},
+    "2021": {"accession": "0000086312-22-000013", "filed": "2022-02-17", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631222000013/0000086312-22-000013-index.htm"},
+    "2022": {"accession": "0000086312-23-000011", "filed": "2023-02-16", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631223000011/0000086312-23-000011-index.htm"},
+    "2023": {"accession": "0000086312-24-000012", "filed": "2024-02-15", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631224000012/0000086312-24-000012-index.htm"},
+    "2024": {"accession": "0000086312-25-000012", "filed": "2025-02-13", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631225000012/0000086312-25-000012-index.htm"},
+    "2025": {"accession": "0000086312-26-000065", "filed": "2026-02-12", "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/0000086312-26-000065-index.htm"}
+  },
+  "premium_tables": [
+    {
+      "report_year": 2022, "pdf_page": 179, "note": "Reinsurance; written and earned premiums; fiscal columns 2022, 2021, 2020",
+      "columns": [2022, 2021, 2020],
+      "rows": {
+        "direct_written": [36648, 33180, 30762],
+        "assumed_written": [1228, 1064, 1001],
+        "ceded_written": [2462, 2285, 2031],
+        "reported_nwp": [35414, 31959, 29732],
+        "direct_earned": [34948, 31977, 29978],
+        "assumed_earned": [1145, 1032, 1010],
+        "ceded_earned": [2330, 2154, 1944],
+        "reported_nep": [33763, 30855, 29044]
+      }
+    },
+    {
+      "report_year": 2025, "pdf_page": 193, "note": "Reinsurance; written and earned premiums; fiscal columns 2025, 2024, 2023",
+      "columns": [2025, 2024, 2023],
+      "rows": {
+        "direct_written": [45594, 44377, 40983],
+        "assumed_written": [2136, 2173, 1989],
+        "ceded_written": [3343, 3194, 2771],
+        "reported_nwp": [44387, 43356, 40201],
+        "direct_earned": [45042, 42983, 38796],
+        "assumed_earned": [2110, 2095, 1614],
+        "ceded_earned": [3238, 3137, 2649],
+        "reported_nep": [43914, 41941, 37761]
+      }
+    }
+  ],
+  "upr_balance_tables": [
+    {"report_year": 2019, "pdf_page": 145, "year": 2019, "gross_upr": 14604, "ceded_upr": 689},
+    {"report_year": 2020, "pdf_page": 148, "year": 2020, "gross_upr": 15222, "ceded_upr": 772},
+    {"report_year": 2021, "pdf_page": 146, "year": 2021, "gross_upr": 16469, "ceded_upr": 902},
+    {"report_year": 2022, "pdf_page": 147, "year": 2022, "gross_upr": 18240, "ceded_upr": 1024},
+    {"report_year": 2023, "pdf_page": 147, "year": 2023, "gross_upr": 20872, "ceded_upr": 1150},
+    {"report_year": 2024, "pdf_page": 150, "year": 2024, "gross_upr": 22289, "ceded_upr": 1202},
+    {"report_year": 2025, "pdf_page": 159, "year": 2025, "gross_upr": 22431, "ceded_upr": 1283}
+  ],
+  "held_for_sale_2025": {
+    "report_year": 2025, "pdf_page": 162,
+    "unearned_premium_reserves": 514,
+    "claims_reserves": 1909,
+    "reinsurance_recoverables": 285
+  },
+  "reserve_presentation_2025": {
+    "report_year": 2025, "reserve_pdf_page": 195, "balance_sheet_pdf_page": 159,
+    "other_insurance_claim_reserves": 3,
+    "balance_sheet_claim_reserves": 65737
+  },
+  "reserve_tables": [
+    {
+      "report_year": 2019, "pdf_page": 180, "year": 2019,
+      "closing_gross": 51836, "closing_unpaid_recoverables": 8035, "closing_net": 43801
+    },
+    {
+      "report_year": 2021, "pdf_page": 182, "year": 2020,
+      "opening_gross": 51836, "opening_unpaid_recoverables": 8035,
+      "adoption_change": 53, "reported_opening_net_after_adoption": 43854,
+      "current_incurred": 19285, "reserve_prior_incurred": -267,
+      "reported_total_incurred": 19018, "paid_current": 7497, "paid_prior": 9092,
+      "reported_total_paid": 16589, "reserve_fx_other": 74,
+      "closing_net": 46357, "closing_unpaid_recoverables": 8153, "closing_gross": 54510
+    },
+    {
+      "report_year": 2021, "pdf_page": 182, "year": 2021,
+      "opening_gross": 54510, "opening_unpaid_recoverables": 8153,
+      "adoption_change": 0, "reported_opening_net_after_adoption": 46357,
+      "current_incurred": 20698, "reserve_prior_incurred": -484,
+      "reported_total_incurred": 20214, "paid_current": 8401, "paid_prior": 9470,
+      "reported_total_paid": 17871, "reserve_fx_other": -12,
+      "closing_net": 48688, "closing_unpaid_recoverables": 8209, "closing_gross": 56897
+    },
+    {
+      "report_year": 2023, "pdf_page": 181, "year": 2022,
+      "opening_gross": 56897, "opening_unpaid_recoverables": 8209,
+      "adoption_change": 0, "reported_opening_net_after_adoption": 48688,
+      "current_incurred": 23308, "reserve_prior_incurred": -537,
+      "reported_total_incurred": 22771, "paid_current": 9406, "paid_prior": 10945,
+      "reported_total_paid": 20351, "reserve_fx_other": -255,
+      "closing_net": 50853, "closing_unpaid_recoverables": 7790, "closing_gross": 58643
+    },
+    {
+      "report_year": 2023, "pdf_page": 181, "year": 2023,
+      "opening_gross": 58643, "opening_unpaid_recoverables": 7790,
+      "adoption_change": 0, "reported_opening_net_after_adoption": 50853,
+      "current_incurred": 26159, "reserve_prior_incurred": -38,
+      "reported_total_incurred": 26121, "paid_current": 10852, "paid_prior": 12424,
+      "reported_total_paid": 23276, "reserve_fx_other": 106,
+      "closing_net": 53804, "closing_unpaid_recoverables": 7817, "closing_gross": 61621
+    },
+    {
+      "report_year": 2025, "pdf_page": 195, "year": 2024,
+      "opening_gross": 61621, "opening_unpaid_recoverables": 7817,
+      "adoption_change": 0, "reported_opening_net_after_adoption": 53804,
+      "current_incurred": 27508, "reserve_prior_incurred": -548,
+      "reported_total_incurred": 26960, "paid_current": 10924, "paid_prior": 13227,
+      "reported_total_paid": 24151, "reserve_fx_other": -194,
+      "closing_net": 56419, "closing_unpaid_recoverables": 7669, "closing_gross": 64088
+    },
+    {
+      "report_year": 2025, "pdf_page": 195, "year": 2025,
+      "opening_gross": 64088, "opening_unpaid_recoverables": 7669,
+      "adoption_change": 0, "reported_opening_net_after_adoption": 56419,
+      "current_incurred": 28051, "reserve_prior_incurred": -939,
+      "reported_total_incurred": 27112, "paid_current": 10606, "paid_prior": 13307,
+      "reported_total_paid": 23913, "reserve_fx_other": 228,
+      "closing_net": 59846, "closing_unpaid_recoverables": 7797, "closing_gross": 67643
+    }
+  ]
+}

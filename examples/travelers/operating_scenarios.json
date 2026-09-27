@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_analyst_inputs_not_travelers_guidance",
+  "forecast_scope": "constant_fy2025_perimeter_excludes_2026_canadian_disposal",
+  "scope_source": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Completes-Sale-of-Canadian-Personal-Insurance-Business-and-Majority-of-Its-Canadian-Commercial-Insurance-Business-to-Definity/default.aspx",
+  "company": "TRV",
+  "years": [2026, 2027, 2028, 2029, 2030],
+  "cases": {
+    "Base": {
+      "gwp_growth": 0.04,
+      "ceded_share": 0.07,
+      "closing_upr_share": 0.47,
+      "attritional_loss_ratio": 0.59,
+      "catastrophe_loss_ratio": 0.05,
+      "development_share_opening_reserves": -0.01,
+      "current_year_paid_share": 0.38,
+      "prior_year_paid_share": 0.22,
+      "unpaid_recoverable_share_gross": 0.115,
+      "expense_ratio": 0.275
+    },
+    "Upside": {
+      "gwp_growth": 0.07,
+      "ceded_share": 0.06,
+      "closing_upr_share": 0.46,
+      "attritional_loss_ratio": 0.55,
+      "catastrophe_loss_ratio": 0.035,
+      "development_share_opening_reserves": -0.02,
+      "current_year_paid_share": 0.37,
+      "prior_year_paid_share": 0.21,
+      "unpaid_recoverable_share_gross": 0.105,
+      "expense_ratio": 0.265
+    },
+    "Downside": {
+      "gwp_growth": 0.01,
+      "ceded_share": 0.09,
+      "closing_upr_share": 0.49,
+      "attritional_loss_ratio": 0.64,
+      "catastrophe_loss_ratio": 0.075,
+      "development_share_opening_reserves": 0.01,
+      "current_year_paid_share": 0.40,
+      "prior_year_paid_share": 0.23,
+      "unpaid_recoverable_share_gross": 0.125,
+      "expense_ratio": 0.29
+    }
+  }
+}

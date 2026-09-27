@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "company": "TRV",
+  "as_of": "2026-02-12",
+  "transaction_date": "2026-01-02",
+  "status": "cutoff_held_for_sale_balance_only",
+  "facts": [
+    {
+      "metric": "hfs_assets_total",
+      "value": 4550,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_claim_reserves_gross",
+      "value": 1909,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_fixed_maturities",
+      "value": 3243,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_goodwill",
+      "value": 208,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_liabilities_total",
+      "value": 2542,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_premium_receivables",
+      "value": 263,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_reinsurance_recoverables",
+      "value": 285,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_remaining_assets",
+      "value": 551,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_remaining_liabilities",
+      "value": 119,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    },
+    {
+      "metric": "hfs_unearned_premium_gross",
+      "value": 514,
+      "unit": "USD million",
+      "period_type": "instant",
+      "period_start": null,
+      "period_end": "2025-12-31",
+      "source_id": "fy2025_10k",
+      "available_at": "2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000065/trv-20251231.htm",
+      "locator": "Note 1, major classes of assets and liabilities held for sale; December 31, 2025"
+    }
+  ],
+  "checks": [
+    {
+      "metric": "held_for_sale_asset_classes",
+      "actual": 4550,
+      "expected": 4550,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "held_for_sale_liability_classes",
+      "actual": 2542,
+      "expected": 2542,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "balance_sheet_hfs_assets",
+      "actual": 4550,
+      "expected": 4550,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "balance_sheet_hfs_liabilities",
+      "actual": 2542,
+      "expected": 2542,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "reserve_table_hfs_claims",
+      "actual": 1909,
+      "expected": 1909,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "premium_table_hfs_upr",
+      "actual": 514,
+      "expected": 514,
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "metric": "reinsurance_table_hfs_asset",
+      "actual": 285,
+      "expected": 285,
+      "difference": 0,
+      "status": "pass"
+    }
+  ],
+  "derived": {
+    "disposed_net_assets_book": 2008,
+    "continuing_gross_claim_reserves_opening": 65734,
+    "gross_upr_opening_already_excludes_hfs": 22431,
+    "investment_balance_opening_already_excludes_hfs": 101182,
+    "cash_balance_opening_already_excludes_hfs": 842
+  },
+  "open_items": [
+    "Q1 net reserves disposed, cash proceeds and FY2025 premium carveout postdate cutoff",
+    "Exact transaction gain, tax and cash retained/reinvested",
+    "Divested gross written premiums and ceded written premiums",
+    "Divested ceded unearned premiums and other operating assets/liabilities"
+  ],
+  "boundary": "A later disclosure never enters an earlier cutoff. Cash proceeds less book net assets is not an accounting gain.",
+  "input_hashes": {
+    "examples/travelers/canadian_disposal_sources.json": "c04522a44c69eb415f9cae915b32ab3ac59958200b604300c31aa57ed4512cd3",
+    "examples/travelers/historical_actuals.json": "5ba590ca79a80b3e5358e10bd33bdb6fb263f67cfd80922bbbac4445799dfb06",
+    "examples/travelers/statement_controls.json": "a6b1f4af4e2f59702710904f3989ddb34afa57f1f94f9c634d1d5bd238b132fc",
+    "examples/travelers/historical_integration.json": "63babf9f2458b1fa9c3bb92b6c2021f816d3d025956e2e1f458878c669b7a0eb"
+  }
+}

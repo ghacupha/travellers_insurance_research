@@ -1,0 +1,3 @@
+# Insurance runtime uses the Python standard library.
+# BDD development dependencies: requirements-dev.txt
+# Historical bank/Excel/PDF dependencies remain in scripts/requirements.txt.

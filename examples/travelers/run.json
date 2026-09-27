@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "The Travelers Companies, Inc.",
+    "ticker": "TRV",
+    "cik": "0000086312",
+    "accounting_basis": "US_GAAP",
+    "insurer_type": "property_casualty",
+    "ratio_adapter": "travelers_reported"
+  },
+  "as_of": "2026-02-12",
+  "actuals": "actuals.json"
+}

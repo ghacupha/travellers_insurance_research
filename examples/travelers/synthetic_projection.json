@@ -1,0 +1,30 @@
+{
+  "status": "synthetic_not_travelers",
+  "currency_unit": "USD million",
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "opening": {
+    "gwp": 100,
+    "gross_upr": 50,
+    "ceded_upr": 5,
+    "gross_reserves": 150,
+    "unpaid_recoverables": 15
+  },
+  "drivers": {
+    "gwp_growth": 0.05,
+    "ceded_share": 0.1,
+    "closing_upr_share": 0.5,
+    "attritional_loss_ratio": 0.6,
+    "catastrophe_loss_ratio": 0.05,
+    "development_share_opening_reserves": -0.01,
+    "current_year_paid_share": 0.4,
+    "prior_year_paid_share": 0.2,
+    "unpaid_recoverable_share_gross": 0.1,
+    "expense_ratio": 0.28
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "status": "partial_operating_workbook",
+  "sheet": "Model",
+  "opening_column": "G",
+  "period_columns": {
+    "2020": "H",
+    "2021": "I",
+    "2022": "J",
+    "2023": "K",
+    "2024": "L",
+    "2025": "M",
+    "2026": "N",
+    "2027": "O",
+    "2028": "P",
+    "2029": "Q",
+    "2030": "R"
+  },
+  "layout": [
+    {
+      "section": "Premiums and earning",
+      "row": 10
+    },
+    {
+      "id": "direct_written",
+      "label": "Direct written premiums",
+      "section": "Premiums and earning",
+      "row": 11
+    },
+    {
+      "id": "assumed_written",
+      "label": "Assumed written premiums",
+      "section": "Premiums and earning",
+      "row": 12
+    },
+    {
+      "id": "gwp",
+      "label": "Gross written premiums",
+      "section": "Premiums and earning",
+      "row": 13
+    },
+    {
+      "id": "ceded_written",
+      "label": "Ceded written premiums",
+      "section": "Premiums and earning",
+      "row": 14
+    },
+    {
+      "id": "nwp",
+      "label": "Net written premiums",
+      "section": "Premiums and earning",
+      "row": 15
+    },
+    {
+      "id": "gross_upr",
+      "label": "Gross unearned premiums",
+      "section": "Premiums and earning",
+      "row": 16
+    },
+    {
+      "id": "ceded_upr",
+      "label": "Ceded unearned premiums",
+      "section": "Premiums and earning",
+      "row": 17
+    },
+    {
+      "id": "net_upr",
+      "label": "Net unearned premiums",
+      "section": "Premiums and earning",
+      "row": 18
+    },
+    {
+      "id": "held_for_sale_upr",
+      "label": "Gross UPR held for sale",
+      "section": "Premiums and earning",
+      "row": 19
+    },
+    {
+      "id": "gross_earned",
+      "label": "Gross earned premiums",
+      "section": "Premiums and earning",
+      "row": 20
+    },
+    {
+      "id": "ceded_earned",
+      "label": "Ceded earned premiums",
+      "section": "Premiums and earning",
+      "row": 21
+    },
+    {
+      "id": "nep",
+      "label": "Net earned premiums",
+      "section": "Premiums and earning",
+      "row": 22
+    },
+    {
+      "id": "gross_premium_earning_gap",
+      "label": "Gross premium earning difference",
+      "section": "Premiums and earning",
+      "row": 23
+    },
+    {
+      "id": "ceded_premium_earning_gap",
+      "label": "Ceded premium earning difference",
+      "section": "Premiums and earning",
+      "row": 24
+    },
+    {
+      "id": "net_premium_earning_gap",
+      "label": "Net premium earning difference",
+      "section": "Premiums and earning",
+      "row": 25
+    },
+    {
+      "section": "Claims and P&C reserves",
+      "row": 28
+    },
+    {
+      "id": "current_incurred",
+      "label": "Current accident-year incurred",
+      "section": "Claims and P&C reserves",
+      "row": 29
+    },
+    {
+      "id": "reserve_prior_incurred",
+      "label": "Prior accident-year incurred adjustment",
+      "section": "Claims and P&C reserves",
+      "row": 30
+    },
+    {
+      "id": "reported_total_incurred",
+      "label": "Total reserve-table incurred",
+      "section": "Claims and P&C reserves",
+      "row": 31
+    },
+    {
+      "id": "paid_current",
+      "label": "Paid current-year claims",
+      "section": "Claims and P&C reserves",
+      "row": 32
+    },
+    {
+      "id": "paid_prior",
+      "label": "Paid prior-year claims",
+      "section": "Claims and P&C reserves",
+      "row": 33
+    },
+    {
+      "id": "reported_total_paid",
+      "label": "Total claims paid",
+      "section": "Claims and P&C reserves",
+      "row": 34
+    },
+    {
+      "id": "reserve_fx_other",
+      "label": "Reserve FX and other",
+      "section": "Claims and P&C reserves",
+      "row": 35
+    },
+    {
+      "id": "adoption_change",
+      "label": "Accounting adoption adjustment",
+      "section": "Claims and P&C reserves",
+      "row": 36
+    },
+    {
+      "id": "net_reserves",
+      "label": "Net P&C claims reserves",
+      "section": "Claims and P&C reserves",
+      "row": 37
+    },
+    {
+      "id": "unpaid_recoverables",
+      "label": "Recoverables on unpaid P&C claims",
+      "section": "Claims and P&C reserves",
+      "row": 38
+    },
+    {
+      "id": "gross_reserves",
+      "label": "Gross P&C claims reserves",
+      "section": "Claims and P&C reserves",
+      "row": 39
+    },
+    {
+      "id": "reserve_rollforward_check",
+      "label": "Reserve rollforward difference",
+      "section": "Claims and P&C reserves",
+      "row": 40
+    },
+    {
+      "section": "Reinsurance presentation",
+      "row": 43
+    },
+    {
+      "id": "total_recoverables",
+      "label": "Balance-sheet reinsurance recoverables",
+      "section": "Reinsurance presentation",
+      "row": 44
+    },
+    {
+      "id": "recoverable_scope_difference",
+      "label": "Total less unpaid recoverables; scopes differ",
+      "section": "Reinsurance presentation",
+      "row": 45
+    },
+    {
+      "id": "held_for_sale_recoverables",
+      "label": "Recoverables held for sale",
+      "section": "Reinsurance presentation",
+      "row": 46
+    },
+    {
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 49
+    },
+    {
+      "id": "dac",
+      "label": "Deferred acquisition costs",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 50
+    },
+    {
+      "id": "dac_cash_additions",
+      "label": "Cash-flow DAC additions",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 51
+    },
+    {
+      "id": "dac_amortization",
+      "label": "DAC amortization",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 52
+    },
+    {
+      "id": "dac_stock_gap",
+      "label": "DAC stock difference",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 53
+    },
+    {
+      "id": "general_admin",
+      "label": "General and administrative expenses",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 54
+    },
+    {
+      "id": "claims",
+      "label": "GAAP claims and LAE",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 55
+    },
+    {
+      "id": "underwriting_expense_proxy",
+      "label": "Illustrative forecast underwriting expenses",
+      "section": "Acquisition costs and GAAP expenses",
+      "row": 56
+    },
+    {
+      "section": "Investment portfolio",
+      "row": 59
+    },
+    {
+      "id": "fixed_maturity_fair",
+      "label": "Fixed maturities at fair value",
+      "section": "Investment portfolio",
+      "row": 60
+    },
+    {
+      "id": "equity_investments",
+      "label": "Equity securities",
+      "section": "Investment portfolio",
+      "row": 61
+    },
+    {
+      "id": "real_estate_investments",
+      "label": "Real estate investments",
+      "section": "Investment portfolio",
+      "row": 62
+    },
+    {
+      "id": "short_term_investments",
+      "label": "Short-term investments",
+      "section": "Investment portfolio",
+      "row": 63
+    },
+    {
+      "id": "other_investments",
+      "label": "Other investments",
+      "section": "Investment portfolio",
+      "row": 64
+    },
+    {
+      "id": "total_investments",
+      "label": "Total investments",
+      "section": "Investment portfolio",
+      "row": 65
+    },
+    {
+      "id": "investment_cash_purchases",
+      "label": "Investment cash purchases",
+      "section": "Investment portfolio",
+      "row": 66
+    },
+    {
+      "id": "investment_cash_proceeds",
+      "label": "Investment maturity and sale proceeds",
+      "section": "Investment portfolio",
+      "row": 67
+    },
+    {
+      "id": "short_term_net_sales",
+      "label": "Net sales of short-term securities",
+      "section": "Investment portfolio",
+      "row": 68
+    },
+    {
+      "id": "investment_cash_proxy_gap",
+      "label": "Investment balance less cash proxy",
+      "section": "Investment portfolio",
+      "row": 69
+    },
+    {
+      "id": "investment_income",
+      "label": "Net investment income",
+      "section": "Investment portfolio",
+      "row": 70
+    },
+    {
+      "id": "average_investments",
+      "label": "Average invested assets",
+      "section": "Investment portfolio",
+      "row": 71
+    },
+    {
+      "id": "investment_yield",
+      "label": "Investment income / average investments",
+      "section": "Investment portfolio",
+      "row": 72
+    },
+    {
+      "section": "Common equity",
+      "row": 75
+    },
+    {
+      "id": "opening_equity",
+      "label": "Opening common equity",
+      "section": "Common equity",
+      "row": 76
+    },
+    {
+      "id": "net_income",
+      "label": "Net income",
+      "section": "Common equity",
+      "row": 77
+    },
+    {
+      "id": "total_oci",
+      "label": "Other comprehensive income",
+      "section": "Common equity",
+      "row": 78
+    },
+    {
+      "id": "employee_shares_equity",
+      "label": "Employee share issuances",
+      "section": "Common equity",
+      "row": 79
+    },
+    {
+      "id": "stock_comp_and_other_equity",
+      "label": "Share compensation and other",
+      "section": "Common equity",
+      "row": 80
+    },
+    {
+      "id": "retained_earnings_other",
+      "label": "Other retained earnings",
+      "section": "Common equity",
+      "row": 81
+    },
+    {
+      "id": "adoption_equity",
+      "label": "Accounting adoption",
+      "section": "Common equity",
+      "row": 82
+    },
+    {
+      "id": "equity_dividends",
+      "label": "Declared dividends",
+      "section": "Common equity",
+      "row": 83
+    },
+    {
+      "id": "equity_buybacks_authorized",
+      "label": "Authorized buybacks",
+      "section": "Common equity",
+      "row": 84
+    },
+    {
+      "id": "equity_employee_treasury",
+      "label": "Employee treasury shares",
+      "section": "Common equity",
+      "row": 85
+    },
+    {
+      "id": "closing_equity",
+      "label": "Closing common equity",
+      "section": "Common equity",
+      "row": 86
+    },
+    {
+      "id": "equity_rollforward_check",
+      "label": "Equity rollforward difference",
+      "section": "Common equity",
+      "row": 87
+    },
+    {
+      "id": "closing_shares",
+      "label": "Ending common shares, millions",
+      "section": "Common equity",
+      "row": 88
+    },
+    {
+      "section": "Debt and cash",
+      "row": 91
+    },
+    {
+      "id": "debt",
+      "label": "Debt outstanding",
+      "section": "Debt and cash",
+      "row": 92
+    },
+    {
+      "id": "debt_issuance",
+      "label": "Cash debt issuance",
+      "section": "Debt and cash",
+      "row": 93
+    },
+    {
+      "id": "debt_repayment",
+      "label": "Cash debt repayment",
+      "section": "Debt and cash",
+      "row": 94
+    },
+    {
+      "id": "debt_stock_gap",
+      "label": "Debt stock difference",
+      "section": "Debt and cash",
+      "row": 95
+    },
+    {
+      "id": "cfo",
+      "label": "Cash from operations",
+      "section": "Debt and cash",
+      "row": 96
+    },
+    {
+      "id": "cfi",
+      "label": "Cash from investing",
+      "section": "Debt and cash",
+      "row": 97
+    },
+    {
+      "id": "cff",
+      "label": "Cash from financing",
+      "section": "Debt and cash",
+      "row": 98
+    },
+    {
+      "id": "cash_fx",
+      "label": "FX effect on cash",
+      "section": "Debt and cash",
+      "row": 99
+    },
+    {
+      "id": "cash_held_for_sale_reclassification",
+      "label": "Cash held for sale",
+      "section": "Debt and cash",
+      "row": 100
+    },
+    {
+      "id": "cash",
+      "label": "Balance-sheet cash",
+      "section": "Debt and cash",
+      "row": 101
+    },
+    {
+      "id": "cash_rollforward_check",
+      "label": "Cash rollforward difference",
+      "section": "Debt and cash",
+      "row": 102
+    },
+    {
+      "section": "GAAP income statement integration",
+      "row": 105
+    },
+    {
+      "id": "fee_income",
+      "label": "Fee income",
+      "section": "GAAP income statement integration",
+      "row": 106
+    },
+    {
+      "id": "realized_gains",
+      "label": "Net realized investment gains / losses",
+      "section": "GAAP income statement integration",
+      "row": 107
+    },
+    {
+      "id": "other_revenue",
+      "label": "Other revenues",
+      "section": "GAAP income statement integration",
+      "row": 108
+    },
+    {
+      "id": "total_revenue",
+      "label": "Total revenues",
+      "section": "GAAP income statement integration",
+      "row": 109
+    },
+    {
+      "id": "interest_expense",
+      "label": "Interest expense",
+      "section": "GAAP income statement integration",
+      "row": 110
+    },
+    {
+      "id": "total_expenses",
+      "label": "Total claims and expenses",
+      "section": "GAAP income statement integration",
+      "row": 111
+    },
+    {
+      "id": "pretax_income",
+      "label": "Income before tax",
+      "section": "GAAP income statement integration",
+      "row": 112
+    },
+    {
+      "id": "tax_expense",
+      "label": "Income tax expense",
+      "section": "GAAP income statement integration",
+      "row": 113
+    },
+    {
+      "id": "income_revenue_check",
+      "label": "Revenue line difference",
+      "section": "GAAP income statement integration",
+      "row": 114
+    },
+    {
+      "id": "income_expense_check",
+      "label": "Expense line difference",
+      "section": "GAAP income statement integration",
+      "row": 115
+    },
+    {
+      "id": "income_net_check",
+      "label": "Net income line difference",
+      "section": "GAAP income statement integration",
+      "row": 116
+    },
+    {
+      "id": "income_cash_check",
+      "label": "Income versus cash-flow net income",
+      "section": "GAAP income statement integration",
+      "row": 117
+    },
+    {
+      "section": "GAAP balance sheet integration",
+      "row": 120
+    },
+    {
+      "id": "accrued_investment_income",
+      "label": "Investment income accrued",
+      "section": "GAAP balance sheet integration",
+      "row": 121
+    },
+    {
+      "id": "premium_receivables",
+      "label": "Premium receivables",
+      "section": "GAAP balance sheet integration",
+      "row": 122
+    },
+    {
+      "id": "deferred_tax_asset",
+      "label": "Deferred tax assets",
+      "section": "GAAP balance sheet integration",
+      "row": 123
+    },
+    {
+      "id": "contractholder_receivables",
+      "label": "Contractholder receivables",
+      "section": "GAAP balance sheet integration",
+      "row": 124
+    },
+    {
+      "id": "goodwill",
+      "label": "Goodwill",
+      "section": "GAAP balance sheet integration",
+      "row": 125
+    },
+    {
+      "id": "intangible_assets",
+      "label": "Other intangible assets",
+      "section": "GAAP balance sheet integration",
+      "row": 126
+    },
+    {
+      "id": "other_assets",
+      "label": "Other assets",
+      "section": "GAAP balance sheet integration",
+      "row": 127
+    },
+    {
+      "id": "assets_held_for_sale",
+      "label": "Assets held for sale",
+      "section": "GAAP balance sheet integration",
+      "row": 128
+    },
+    {
+      "id": "total_assets",
+      "label": "Total assets",
+      "section": "GAAP balance sheet integration",
+      "row": 129
+    },
+    {
+      "id": "balance_sheet_claim_reserves",
+      "label": "Balance-sheet claims reserves",
+      "section": "GAAP balance sheet integration",
+      "row": 130
+    },
+    {
+      "id": "contractholder_payables",
+      "label": "Contractholder payables",
+      "section": "GAAP balance sheet integration",
+      "row": 131
+    },
+    {
+      "id": "reinsurance_premium_payables",
+      "label": "Reinsurance premium payables",
+      "section": "GAAP balance sheet integration",
+      "row": 132
+    },
+    {
+      "id": "deferred_tax_liability",
+      "label": "Deferred tax liabilities",
+      "section": "GAAP balance sheet integration",
+      "row": 133
+    },
+    {
+      "id": "other_liabilities",
+      "label": "Other liabilities",
+      "section": "GAAP balance sheet integration",
+      "row": 134
+    },
+    {
+      "id": "liabilities_held_for_sale",
+      "label": "Liabilities held for sale",
+      "section": "GAAP balance sheet integration",
+      "row": 135
+    },
+    {
+      "id": "total_liabilities",
+      "label": "Total liabilities",
+      "section": "GAAP balance sheet integration",
+      "row": 136
+    },
+    {
+      "id": "common_stock",
+      "label": "Common stock",
+      "section": "GAAP balance sheet integration",
+      "row": 137
+    },
+    {
+      "id": "retained_earnings",
+      "label": "Retained earnings",
+      "section": "GAAP balance sheet integration",
+      "row": 138
+    },
+    {
+      "id": "aoci",
+      "label": "Accumulated other comprehensive income",
+      "section": "GAAP balance sheet integration",
+      "row": 139
+    },
+    {
+      "id": "treasury_stock",
+      "label": "Treasury stock at cost",
+      "section": "GAAP balance sheet integration",
+      "row": 140
+    },
+    {
+      "id": "balance_assets_check",
+      "label": "Asset line difference",
+      "section": "GAAP balance sheet integration",
+      "row": 141
+    },
+    {
+      "id": "balance_liabilities_check",
+      "label": "Liability line difference",
+      "section": "GAAP balance sheet integration",
+      "row": 142
+    },
+    {
+      "id": "balance_equity_check",
+      "label": "Equity component difference",
+      "section": "GAAP balance sheet integration",
+      "row": 143
+    },
+    {
+      "id": "balance_equation_check",
+      "label": "Assets less liabilities and equity",
+      "section": "GAAP balance sheet integration",
+      "row": 144
+    }
+  ]
+}

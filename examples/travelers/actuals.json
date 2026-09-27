@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "currency_unit": "USD million",
+  "sources": {
+    "trv_fy2025_release": {
+      "title": "Travelers FY2025 results \u2014 ratio reconciliation",
+      "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "published": "2026-01-21",
+      "accessed": "2026-09-23",
+      "method": "manual transcription from issuer HTML; annual columns, not quarterly columns"
+    }
+  },
+  "periods": [
+    {
+      "year": 2024,
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "facts": {
+        "nwp": {
+          "value": 43356,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2024; nwp"
+        },
+        "nep": {
+          "value": 41941,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; nep"
+        },
+        "claims": {
+          "value": 27059,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; claims"
+        },
+        "policyholder_dividends": {
+          "value": 47,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; policyholder_dividends"
+        },
+        "loss_allocated_fees": {
+          "value": 172,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; loss_allocated_fees"
+        },
+        "dac_amortization": {
+          "value": 6973,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; dac_amortization"
+        },
+        "general_admin": {
+          "value": 5819,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; general_admin"
+        },
+        "noninsurance_admin": {
+          "value": 421,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; noninsurance_admin"
+        },
+        "expense_allocated_fees": {
+          "value": 301,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; expense_allocated_fees"
+        },
+        "billing_fees_other": {
+          "value": 116,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; billing_fees_other"
+        },
+        "catastrophe_losses": {
+          "value": 3335,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2024; catastrophe_losses"
+        },
+        "prior_year_development": {
+          "value": -709,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2024; prior_year_development",
+          "normalization": "Published favorable amount converted to negative incurred expense."
+        },
+        "reported_combined_ratio": {
+          "value": 0.925,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; reported_combined_ratio"
+        },
+        "reported_loss_ratio": {
+          "value": 0.64,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; reported_loss_ratio"
+        },
+        "reported_expense_ratio": {
+          "value": 0.285,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2024; reported_expense_ratio"
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "facts": {
+        "nwp": {
+          "value": 44387,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2025; nwp"
+        },
+        "nep": {
+          "value": 43914,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; nep"
+        },
+        "claims": {
+          "value": 27221,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; claims"
+        },
+        "policyholder_dividends": {
+          "value": 45,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; policyholder_dividends"
+        },
+        "loss_allocated_fees": {
+          "value": 186,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; loss_allocated_fees"
+        },
+        "dac_amortization": {
+          "value": 7266,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; dac_amortization"
+        },
+        "general_admin": {
+          "value": 6120,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; general_admin"
+        },
+        "noninsurance_admin": {
+          "value": 463,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; noninsurance_admin"
+        },
+        "expense_allocated_fees": {
+          "value": 309,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; expense_allocated_fees"
+        },
+        "billing_fees_other": {
+          "value": 113,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; billing_fees_other"
+        },
+        "catastrophe_losses": {
+          "value": 3690,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2025; catastrophe_losses"
+        },
+        "prior_year_development": {
+          "value": -1036,
+          "unit": "USD million",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Consolidated Results; Twelve Months Ended December 31, 2025; prior_year_development",
+          "normalization": "Published favorable amount converted to negative incurred expense."
+        },
+        "reported_combined_ratio": {
+          "value": 0.899,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; reported_combined_ratio"
+        },
+        "reported_loss_ratio": {
+          "value": 0.614,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; reported_loss_ratio"
+        },
+        "reported_expense_ratio": {
+          "value": 0.285,
+          "unit": "fraction",
+          "status": "disclosed",
+          "source_id": "trv_fy2025_release",
+          "locator": "Calculation of the Combined Ratio; Twelve Months Ended December 31, 2025; reported_expense_ratio"
+        }
+      }
+    }
+  ],
+  "company": {
+    "name": "The Travelers Companies, Inc.",
+    "ticker": "TRV",
+    "cik": "0000086312",
+    "accounting_basis": "US_GAAP",
+    "insurer_type": "property_casualty",
+    "ratio_adapter": "travelers_reported"
+  }
+}
