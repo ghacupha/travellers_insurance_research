@@ -20,7 +20,6 @@ def collect_report_data(root, run_dir):
     inventory = read(base / 'source_inventory.json')
     fingerprint = sha256()
     source_paths = sorted((root / 'bizplan/insurance').glob('*.py'))
-    source_paths += [root / 'scripts/build_operating_workbook.mjs']
     source_paths += sorted(base.glob('*.json'))
     for path in source_paths:
         fingerprint.update(str(path.relative_to(root)).encode())

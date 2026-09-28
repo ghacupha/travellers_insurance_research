@@ -3,7 +3,6 @@
 import argparse
 from hashlib import sha256
 import json
-import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -14,15 +13,7 @@ sys.path.insert(0, str(ROOT))
 
 from bizplan.insurance.harness import run
 from bizplan.insurance.report_pdf import collect_report_data, render_report
-
-
-def node_executable():
-    configured = os.environ.get('NODE_BIN')
-    bundled = Path.home() / '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node'
-    result = configured or shutil.which('node') or (str(bundled) if bundled.is_file() else None)
-    if not result:
-        raise RuntimeError('Node.js required; set NODE_BIN to its executable path')
-    return result
+from bizplan.insurance.workbook import build_workbook
 
 
 def main():
@@ -41,8 +32,7 @@ def main():
     run_dir = run(ROOT / 'examples/travelers/run.json', output_dir=args.output_dir)
     workbook = run_dir / 'Travelers_Insurance_Operating_Model.xlsx'
     pdf = run_dir / 'Travelers_Equity_Research_Status.pdf'
-    subprocess.run([node_executable(), str(ROOT / 'scripts/build_operating_workbook.mjs'),
-                    str(workbook)], cwd=ROOT, check=True)
+    build_workbook(ROOT, workbook)
     report_data = collect_report_data(ROOT, run_dir)
     render_report(report_data, pdf)
     deliverables = args.deliverables_dir.resolve()

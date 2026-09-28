@@ -10,7 +10,8 @@ requires-python = ">=3.9"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["behave==1.2.6"]
+dev = ["behave==1.2.6", "openpyxl>=3.1,<4"]
+release = ["XlsxWriter>=3.2,<4", "reportlab>=4,<5"]
 
 [project.scripts]
 insurance-research = "bizplan.insurance.cli:main"
