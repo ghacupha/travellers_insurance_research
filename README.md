@@ -68,17 +68,6 @@ with the optional release dependencies above. Final example files are copied int
 The insurance report is deliberately unrated until an integrated, transaction-adjusted
 forecast and valuation are reconciled.
 
-A Python-first research harness for **US GAAP property-and-casualty insurers**.
-Travelers (TRV) is the first issuer profile. Identity and disclosure definitions are
-configuration; SEC acquisition can be reused for other companies.
-
-**This is a foundation, not a completed valuation.** It reproduces Travelers' 2024–2025
-reported ratio bridge, reconciles six years of consolidated premium and claims-reserve
-tables, reconciles audited equity and financing cash flows, and includes separately
-labelled illustrative workbook scenarios plus Python Monte Carlo. Remaining historical
-schedule bridges, integrated forecast statements, live market data and calibrated price targets remain
-on the [roadmap](docs/ARCHITECTURE.md).
-
 ## Run offline
 
 Python 3.9+; no external runtime dependencies. From this directory:
