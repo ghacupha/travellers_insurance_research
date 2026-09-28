@@ -8,8 +8,8 @@ source materials retain their respective owners' rights.
 
 This is an independent research implementation using public issuer and SEC data;
 it is not affiliated with or endorsed by The Travelers Companies, CFA Institute,
-or Financial Modeling Institute. See the [research quality and reference review](docs/RESEARCH_QUALITY_REVIEW.md)
-for the evidence boundary and prioritized improvements.
+or Financial Modeling Institute. See [source coverage and limitations](docs/SOURCE_COVERAGE_AND_LIMITATIONS.md)
+for the evidence boundary and outstanding work.
 
 The target deliverable is a **formula-linked Excel model**,
 customized for P&C: 2020–2025 actuals, 2019 opening balances and initial 2026–2030
@@ -167,4 +167,4 @@ at the issuer's displayed precision. The harness does not silently change either
 | `statement_controls.py`, `scripts/build_statement_controls.py` | Selected audited statement inputs and cross-statement checks |
 | `examples/travelers/` | Historical slice, run profile and separate synthetic demo |
 | `tests/`, `features/` | Unit/integration tests and executable Gherkin BDD |
-| `docs/ARCHITECTURE.md`, `docs/RESEARCH_QUALITY_REVIEW.md` | Design, evidence boundaries and remaining validation gates |
+| `docs/ARCHITECTURE.md`, `docs/SOURCE_COVERAGE_AND_LIMITATIONS.md` | Design, evidence boundaries and remaining validation gates |

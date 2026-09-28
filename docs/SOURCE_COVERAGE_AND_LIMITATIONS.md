@@ -1,23 +1,12 @@
-# Research quality and publication review
+# Source coverage and limitations
 
-Reviewed 2026-09-27. This is an assessment of the current Travelers example release,
-not a claim that it is a finished equity valuation or investment recommendation.
-
-## Reference standard
-
-[CFA Institute's Equity Research Report Essentials](https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-equity-research-report-essentials.pdf)
-describes business and industry analysis, historical and forecast financial analysis,
-valuation, investment risks and clear basic security information as common elements of
-a full report. Its [diligence standard](https://www.cfainstitute.org/standards/professionals/code-ethics-standards/standards-of-practice-v-a)
-calls for source checks and model-output validation. Its [communication standard](https://www.cfainstitute.org/standards/professionals/code-ethics-standards/standards-of-practice-v-b)
-emphasizes material assumptions, limitations and separation of fact from forecast or
-opinion. [Conflict disclosure](https://www.cfainstitute.org/standards/professionals/code-ethics-standards/standards-of-practice-vi-a)
-also matters if an eventual report includes a recommendation.
+The current Travelers example release is an operating model and unrated research
+status report. It does not include an integrated forecast or valuation.
 
 ## Current evidence boundary
 
 - The repo has a dated inventory of seven issuer annual reports (2019–2025), with
-  URLs, local-cache hashes and reviewed page locators in
+  URLs, local-cache hashes and recorded page locators in
   `examples/travelers/source_inventory.json`. The normalized historical datasets
   carry source IDs, URLs, fiscal periods, units, status and filing dates.
 - The 2022–2025 selected SEC comparison checks 88 premium and reserve rows. This is
@@ -31,9 +20,9 @@ also matters if an eventual report includes a recommendation.
 - Six premium-earning bridges remain open. The 2026–2030 cases are illustrative and
   retain the FY2025 business perimeter; the Canadian disposal is separately dated.
   There is no integrated transaction-adjusted forecast, market-price input,
-  calibrated valuation, rating or price target. The PDF correctly says so.
+  calibrated valuation, rating or price target. The PDF identifies these limits.
 
-## Prioritized improvements
+## Outstanding work
 
 1. **Complete original-filing references.** The PDF now maps its historical figures
    to annual-report PDF pages. Extend those citations to original SEC HTML table/row
@@ -44,7 +33,7 @@ also matters if an eventual report includes a recommendation.
    rows against original SEC HTML/XBRL; resolve the six UPR earning movements and
    outstanding segment, DAC, investment, reserve and capital bridges. Publish a
    machine-readable exceptions table that distinguishes missing, disclosed, derived
-   and modeled values. The current `Sources` sheet and checks are a strong base.
+   and modeled values. The current `Sources` sheet records source metadata and checks.
 3. **Complete the insurer forecast before valuation.** Rebase premiums, reserves,
    investment assets/income, tax, equity and shares for the Canadian disposal;
    integrate income statement, balance sheet and cash flow with explicit checks.
@@ -60,14 +49,14 @@ also matters if an eventual report includes a recommendation.
    runtime dependencies for bit-for-bit reproducibility, extend the artifact
    provenance manifest across every transformation, and recalculate the XLSX in a
    native spreadsheet engine across all three cases. The current JSON manifests
-   and offline unit/BDD suite provide a start.
+   and offline unit/BDD suite cover selected stages.
 
 ## Redistribution and local-record hygiene
 
 The tracked example deliverables are generated Travelers outputs. Third-party
 teaching workbooks, issuer source PDFs and unrelated research drafts are excluded.
-The local `data/` cache is gitignored. This review found no clearly third-party
-binary in the curated snapshot, but it is not a legal clearance of every source.
+The local `data/` cache is gitignored. The tracked binaries are generated example
+deliverables; source-document PDFs and third-party teaching workbooks are excluded.
 
 The [U.S. Copyright Office](https://copyright.gov/help/faq/faq-general.html) explains
 that facts, ideas and methods are distinct from protected expression; its

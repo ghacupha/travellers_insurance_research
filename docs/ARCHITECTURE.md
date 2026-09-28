@@ -111,7 +111,7 @@ never zero. The five standard mappings are candidates until verified against fil
 
 ## Incremental delivery plan
 
-**Completed foundation:** provenance-bearing ratio actuals, premium/reserve/portfolio/
+**Implemented modules:** provenance-bearing ratio actuals, premium/reserve/portfolio/
 equity kernels, illustrative operating projections, scenario/seeded simulation,
 regression and DDM primitives, JSON/Markdown research, unit tests and Gherkin BDD.
 
