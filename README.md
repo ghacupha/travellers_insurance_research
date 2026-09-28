@@ -41,17 +41,23 @@ python3 scripts/build_model_spec.py \
   --output-dir docs/model_spec --as-of 2026-02-12
 ```
 
-With Node.js and `@oai/artifact-tool` available in `node_modules`, rebuild the
-formula-linked workbook with `node scripts/build_operating_workbook.mjs`. It writes
-`output/travelers_operating_model.xlsx` and compares all three cases with the Python forecast.
-The current workbook renderer uses `@oai/artifact-tool` from the Codex bundled
-runtime; a public package-install path is not yet provided. The checked-in example
-XLSX can be inspected without that runtime. Python-only historical analysis and tests
-run independently.
+Install the optional release dependencies and rebuild the formula-linked workbook
+with Python:
+
+```sh
+python3 -m pip install -e '.[release,dev]'
+python3 scripts/build_operating_workbook.py
+```
+
+This writes `output/travelers_operating_model.xlsx` with XlsxWriter. The build
+checks all three cases against the independent Python forecast, verifies historical
+statement controls, and tests that an assumption change reaches the output without
+changing actuals. Excel formulas and cached Base-case results are saved together;
+Excel recalculates the workbook when the scenario selector or an assumption changes.
 
 For a Travelers research release (including the source-linked Excel model and a PDF
 equity-research status report), run `python3 scripts/build_travelers_release.py`
-with Python plus `reportlab` and the workbook runtime above. Final example files are copied into
+with the optional release dependencies above. Final example files are copied into
 `examples/travelers/deliverables/`. See [release workflow](docs/model_spec/E2E_RELEASE.md).
 The insurance report is deliberately unrated until an integrated, transaction-adjusted
 forecast and valuation are reconciled.

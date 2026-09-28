@@ -10,5 +10,5 @@
 - `release_manifest.json`: source/input fingerprint, run ID, cutoff dates and SHA-256 hashes.
 
 Reproduce from the repository root with
-`python3 scripts/build_travelers_release.py` using Python with `reportlab`, Node.js,
-and `@oai/artifact-tool`. See `docs/model_spec/E2E_RELEASE.md` for scope and gates.
+`python3 scripts/build_travelers_release.py` using Python with `reportlab` and
+`XlsxWriter`. See `docs/model_spec/E2E_RELEASE.md` for scope and gates.

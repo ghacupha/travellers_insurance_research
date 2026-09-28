@@ -1,8 +1,8 @@
 # End-to-end Travelers research release
 
 Run `python3 scripts/build_travelers_release.py` from the repository root with the
-Codex bundled Python runtime (or another Python environment with `reportlab`) and
-Node.js plus `@oai/artifact-tool` available. The script rebuilds sourced history,
+Python 3.9+ with the `release` optional dependencies (`XlsxWriter` and `reportlab`).
+The script rebuilds sourced history,
 statement controls, operating movements, the dated Canadian disposal bridge and
 forecast parity reference. It runs the company-neutral insurance harness, renders
 the formula-linked workbook, creates the research PDF, and copies both final files
@@ -16,7 +16,7 @@ gated by the transaction-adjusted gross/ceded premium, UPR, investment, earnings
 tax, capital and three-statement forecast schedules.
 
 The output run directory under `output/` retains the harness manifest, input
-snapshot, research JSON/Markdown, workbook previews and generated artifacts for
+snapshot, research JSON/Markdown and generated artifacts for
 local audit. `examples/travelers/deliverables/release_manifest.json` records the
 committed example artifacts, their SHA-256 hashes, the run ID, cutoff dates and
 source/input fingerprint. Re-running creates a fresh run and overwrites the example

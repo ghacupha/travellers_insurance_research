@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "issuer": "TRV",
-  "run_id": "20260927T182551Z-e227966d",
+  "run_id": "20260928T164528Z-1570a386",
   "historical_information_cutoff": "2026-02-12",
   "later_disposal_evidence_cutoff": "2026-04-16",
-  "source_fingerprint": "03dc0b50a1fb0b6fb9e4b23ed89583295db156db79c10f9c78e67b97838087ae",
+  "source_fingerprint": "764878ab9b3429df18b9d0ac75232527e162f813302f77d6cd3cfc6038bc80d0",
   "valuation_status": "not_available_no_rating_or_price_target",
   "artifacts": {
-    "Travelers_Insurance_Operating_Model.xlsx": "94776031f865e0aef9c24be961605c7ebdf426d5dd50226ea2af3b40ace25be8",
-    "Travelers_Equity_Research_Status.pdf": "f60e58a17bf43a9144dfdaa83e2f206c9581567a5be6ca90285152a5b94a7e07"
+    "Travelers_Insurance_Operating_Model.xlsx": "63db8645d65385df3f4dbc83f8d8ef690113eace9167050a75914191a07e6941",
+    "Travelers_Equity_Research_Status.pdf": "f62fe2cc315851980541d7ae949f15f959c67b726471dd6794af14d913059d05"
   }
 }
