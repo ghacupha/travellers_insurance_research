@@ -55,11 +55,12 @@ also matters if an eventual report includes a recommendation.
    thesis, variant view, catalysts, peer/industry comparison, risks and disclosure
    of any material conflicts. No recommendation or target should appear before
    source, statement, market-input and valuation gates pass.
-5. **Make the analysis independently repeatable.** Pin runtime dependencies and
-   specify a standard non-Codex setup path; add an artifact provenance manifest
-   covering every input and transformation; recalculate the XLSX in a spreadsheet
-   engine and compare its three cases with Python; use a clean-checkout release
-   workflow. The current JSON manifests and offline unit/BDD suite provide a start.
+5. **Make the analysis independently repeatable.** The Python package extras now
+   provide a public setup path, and a clean public clone builds the release. Pin
+   runtime dependencies for bit-for-bit reproducibility, extend the artifact
+   provenance manifest across every transformation, and recalculate the XLSX in a
+   native spreadsheet engine across all three cases. The current JSON manifests
+   and offline unit/BDD suite provide a start.
 
 ## Redistribution and local-record hygiene
 

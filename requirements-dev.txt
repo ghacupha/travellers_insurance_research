@@ -1,1 +1,2 @@
-behave==1.2.6
+# Reproducible workbook/report release and unit/BDD test dependencies.
+-e .[release,dev]
