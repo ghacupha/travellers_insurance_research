@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Run lifecycle, input snapshots, and reproducibility manifests."""
 from datetime import datetime, timezone, date
 from hashlib import sha256

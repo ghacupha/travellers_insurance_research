@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Run the Travelers insurance harness and package reviewed PDF/XLSX deliverables."""
 import argparse
 from hashlib import sha256

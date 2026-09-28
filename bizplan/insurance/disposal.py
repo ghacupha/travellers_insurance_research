@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Dated Canadian disposal bridge; never treats later evidence as earlier knowledge."""
 from datetime import date
 from hashlib import sha256

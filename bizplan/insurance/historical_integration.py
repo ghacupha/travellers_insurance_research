@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Complete audited consolidated balance-sheet line controls for historical integration."""
 from datetime import date
 from hashlib import sha256

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """SEC acquisition and point-in-time selection. No LLM is a numeric data provider."""
 from datetime import date, datetime, timezone
 from hashlib import sha256

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Sourced GAAP statement controls; not a forecast or a full statement renderer."""
 from collections import Counter
 from datetime import date

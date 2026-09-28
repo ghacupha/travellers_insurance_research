@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Explicit illustrative annual premium/loss projection; no implicit bank defaults."""
 from dataclasses import dataclass, asdict
 from .schedules import PremiumInputs, ReserveInputs, premiums, reserves, finite, fraction

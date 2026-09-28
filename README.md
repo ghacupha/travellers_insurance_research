@@ -1,5 +1,11 @@
 # Insurance research harness
 
+The first-party source code is available under the [MIT License](LICENSE). To add
+MIT SPDX headers to newly added code, run
+`python3 scripts/apply_license_headers.py --write`; use `--check` to verify all
+first-party source files have a header. Public filings and other third-party
+source materials retain their respective owners' rights.
+
 This is an independent research implementation using public issuer and SEC data;
 it is not affiliated with or endorsed by The Travelers Companies, CFA Institute,
 or Financial Modeling Institute. See the [research quality and reference review](docs/RESEARCH_QUALITY_REVIEW.md)

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Small deterministic analytics primitives; no automatic price target blending."""
 from dataclasses import replace
 from random import Random

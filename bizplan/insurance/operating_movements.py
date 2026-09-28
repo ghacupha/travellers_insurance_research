@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Audited P&C operating cash/equity flows and explicitly open stock bridges."""
 from datetime import date
 from hashlib import sha256

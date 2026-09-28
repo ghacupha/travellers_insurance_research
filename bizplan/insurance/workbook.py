@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Build the source-linked Travelers operating workbook with public Python packages.
 
 The Python forecast is an independent parity oracle; Excel formulas remain live.

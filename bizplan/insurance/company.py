@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Issuer identity is configuration; accounting and business models are capabilities."""
 from dataclasses import dataclass
 from .sources import companyfacts_url

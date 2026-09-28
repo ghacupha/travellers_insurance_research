@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Selected original SEC HTML row comparisons against normalized issuer-PDF facts."""
 from datetime import date
 from hashlib import sha256

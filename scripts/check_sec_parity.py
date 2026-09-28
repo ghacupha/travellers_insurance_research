@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Compare selected original SEC HTML rows with normalized historical facts."""
 import argparse
 from pathlib import Path

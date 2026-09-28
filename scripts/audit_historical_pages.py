@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Light offline QA of cached PDF hashes and transcribed numeric page tokens.
 
 This checks page presence, not row-level parity to SEC HTML or semantic meaning.

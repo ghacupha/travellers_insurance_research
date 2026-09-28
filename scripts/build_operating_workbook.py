@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Build the formula-linked Travelers operating workbook with Python."""
 import argparse
 from pathlib import Path

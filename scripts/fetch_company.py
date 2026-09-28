@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Fetch SEC data for any CIK supplied on the command line."""
 from pathlib import Path
 import sys

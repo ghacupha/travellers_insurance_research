@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Executable workbook contract, including saved formula caches and live links."""
 from pathlib import Path
 import tempfile

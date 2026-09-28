@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Build complete audited balance-sheet detail and accounting controls."""
 import argparse
 from pathlib import Path

@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Normalize transcribed P&C history and expose every reconciliation residual."""
 from collections import Counter
 from datetime import date

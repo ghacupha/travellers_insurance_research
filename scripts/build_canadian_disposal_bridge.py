@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Build separately dated Travelers Canadian-disposal evidence bridges."""
 import argparse
 from pathlib import Path

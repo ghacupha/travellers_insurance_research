@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """P&C workbook/data contract. No financial estimates are created here."""
 from dataclasses import asdict, dataclass
 

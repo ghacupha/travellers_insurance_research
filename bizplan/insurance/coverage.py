@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Coverage planning is evidence tracking, not a data-imputation step."""
 from collections import Counter
 from datetime import date

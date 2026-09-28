@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Source-led Travelers research-status PDF from validated insurance outputs."""
 from datetime import date
 from hashlib import sha256

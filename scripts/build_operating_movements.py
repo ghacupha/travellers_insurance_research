@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Rebuild audited operating cash/equity flows and open stock-bridge diagnostics."""
 import argparse
 from pathlib import Path

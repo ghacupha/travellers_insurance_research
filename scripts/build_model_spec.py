@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Regenerate the model specification and coverage ledger from source evidence."""
 import argparse
 from pathlib import Path

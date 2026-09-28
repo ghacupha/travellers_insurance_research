@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 from pathlib import Path
 from behave import given, when, then
 from bizplan.insurance.pipeline import load_actuals

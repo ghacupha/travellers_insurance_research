@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Company-neutral CLI; explicit commands separate acquisition and model execution."""
 import argparse
 import json

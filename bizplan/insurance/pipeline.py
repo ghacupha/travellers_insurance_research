@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Deterministic, provenance-preserving initial Travelers research output."""
 from dataclasses import replace
 from datetime import date

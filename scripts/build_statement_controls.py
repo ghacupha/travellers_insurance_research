@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Rebuild sourced historical statement-control facts and checks."""
 import argparse
 from pathlib import Path

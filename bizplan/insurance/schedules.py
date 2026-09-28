@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Pure P&C schedules; monetary inputs share one currency/unit.
 
 Positive development means adverse; recoverables here cover UNPAID claims only.

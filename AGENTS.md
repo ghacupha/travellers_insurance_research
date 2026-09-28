@@ -21,3 +21,8 @@ requires a real `SEC_USER_AGENT` application/contact identity.
 Do not commit local caches, credentials, conversation transcripts, third-party
 source PDFs or teaching workbooks. Keep commits coherent and review generated
 artifacts before publication.
+
+First-party source code uses the MIT SPDX header in `LICENSE`. Run
+`python3 scripts/apply_license_headers.py --write` for new source files and
+`python3 scripts/apply_license_headers.py --check` before committing. Do not
+apply the project license header to third-party source material.

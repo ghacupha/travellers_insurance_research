@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Build Python authority for illustrative P&C case formulas from sourced opening facts."""
 import json
 from pathlib import Path

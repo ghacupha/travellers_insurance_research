@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 ghacupha
+# SPDX-License-Identifier: MIT
+
 """Explicit issuer-specific disclosure bridges; no issuer logic in acquisition."""
 from .schedules import finite, travelers_ratios
 
